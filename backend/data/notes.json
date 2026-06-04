@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1780603683916,
+    "clientId": "TDC-1004",
+    "type": "Stage Update",
+    "oldStage": "New Lead",
+    "newStage": "Shortlisted",
+    "content": "Client showed strong interest.",
+    "createdAt": "2026-06-04T20:08:03.908Z",
+    "matchmakerId": 1
+  },
+  {
+    "id": 1780603706807,
+    "clientId": "TDC-1004",
+    "type": "Call",
+    "content": "Client will be busy for this week.",
+    "isPrivate": true,
+    "createdAt": "2026-06-04T20:08:26.807Z",
+    "matchmakerId": 1
+  }
+]

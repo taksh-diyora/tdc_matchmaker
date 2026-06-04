@@ -1,0 +1,6723 @@
+[
+  {
+    "id": "TDC-1001",
+    "firstName": "Aarav",
+    "lastName": "Sharma",
+    "fullName": "Aarav Sharma",
+    "age": 29,
+    "dateOfBirth": "12 Jan 1997",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Tech enthusiast and avid reader.",
+    "contact": {
+      "email": "aarav.sharma@example.com",
+      "phone": "+91 9876543201"
+    },
+    "location": {
+      "city": "Delhi",
+      "state": "Delhi",
+      "relocationFlexibility": "Open to tier-1 metro cities"
+    },
+    "physicalAttributes": {
+      "height": "5'11\" / 180 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": "Saraswat",
+      "gotra": "Bharadwaj",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Delhi",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "IIT Delhi",
+      "degree": "B.Tech",
+      "pgDegree": "None",
+      "company": "Microsoft",
+      "designation": "Software Engineer",
+      "income": "₹35 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "Shortlisted",
+      "stageBg": "#DCFCE7",
+      "stageColor": "#166534",
+      "addedDate": "01 Jan 2026",
+      "lastActivity": "2026-06-04T19:02:12.922Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1002",
+    "firstName": "Vihaan",
+    "lastName": "Verma",
+    "fullName": "Vihaan Verma",
+    "age": 28,
+    "dateOfBirth": "15 Mar 1998",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Maybe",
+    "about": "Fitness lover and traveler.",
+    "contact": {
+      "email": "vihaan.verma@example.com",
+      "phone": "+91 9876543202"
+    },
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'10\" / 178 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Kshatriya",
+      "subCaste": "Not Specified",
+      "gotra": "Kashyap",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "Marathi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Mumbai",
+      "timeOfBirth": "07:15 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "VJTI Mumbai",
+      "degree": "B.E.",
+      "pgDegree": "MBA",
+      "company": "TCS",
+      "designation": "Business Analyst",
+      "income": "₹15 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Brother",
+      "familyType": "Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "Active Search",
+      "stageBg": "#DCFCE7",
+      "stageColor": "#166534",
+      "addedDate": "15 Jan 2026",
+      "lastActivity": "2026-06-02T11:30:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1003",
+    "firstName": "Vivaan",
+    "lastName": "Gupta",
+    "fullName": "Vivaan Gupta",
+    "age": 31,
+    "dateOfBirth": "20 Feb 1995",
+    "gender": "Male",
+    "maritalStatus": "Divorced",
+    "wantKids": "Yes",
+    "about": "Foodie and entrepreneur.",
+    "contact": {
+      "email": "vivaan.g@example.com",
+      "phone": "+91 9876543203"
+    },
+    "location": {
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "relocationFlexibility": "Prefers Bangalore"
+    },
+    "physicalAttributes": {
+      "height": "6'0\" / 183 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Bania",
+      "subCaste": "Agarwal",
+      "gotra": "Garg",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English",
+        "Kannada"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Bangalore",
+      "timeOfBirth": "09:45 PM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "NIT Surathkal",
+      "degree": "B.Tech",
+      "pgDegree": "None",
+      "company": "Flipkart",
+      "designation": "Product Manager",
+      "income": "₹45 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Sister",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "Matched",
+      "stageBg": "#F3E8FF",
+      "stageColor": "#6B21A8",
+      "addedDate": "20 Jan 2026",
+      "lastActivity": "2026-06-03T09:15:00Z",
+      "verified": false,
+      "timelineToMarry": "Within 6 months",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1004",
+    "firstName": "Arjun",
+    "lastName": "Singh",
+    "fullName": "Arjun Singh",
+    "age": 27,
+    "dateOfBirth": "10 Aug 1999",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "No",
+    "about": "Creative thinker and musician.",
+    "contact": {
+      "email": "arjun.singh@example.com",
+      "phone": "+91 9876543204"
+    },
+    "location": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "relocationFlexibility": "Open to relocate globally"
+    },
+    "physicalAttributes": {
+      "height": "5'9\" / 175 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Rajput",
+      "subCaste": "Not Specified",
+      "gotra": "Vashistha",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "Don't Know",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Pune",
+      "timeOfBirth": "11:20 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Symbiosis",
+      "degree": "BBA",
+      "pgDegree": "M.Sc",
+      "company": "Infosys",
+      "designation": "Consultant",
+      "income": "₹12 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "Occasionally"
+    },
+    "familyDetails": {
+      "siblings": "2 Brothers",
+      "familyType": "Middle Class",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "Shortlisted",
+      "stageBg": "#FEE2E2",
+      "stageColor": "#991B1B",
+      "addedDate": "05 Feb 2026",
+      "lastActivity": "2026-06-04T20:08:03.908Z",
+      "verified": true,
+      "timelineToMarry": "Within 2 years",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1005",
+    "firstName": "Sai",
+    "lastName": "Kumar",
+    "fullName": "Sai Kumar",
+    "age": 32,
+    "dateOfBirth": "25 Nov 1993",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Family oriented and sports enthusiast.",
+    "contact": {
+      "email": "sai.kumar@example.com",
+      "phone": "+91 9876543205"
+    },
+    "location": {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "relocationFlexibility": "Prefers Hyderabad"
+    },
+    "physicalAttributes": {
+      "height": "5'8\" / 173 cm",
+      "openToPets": "Maybe"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Reddy",
+      "subCaste": "Not Specified",
+      "gotra": "Shiva",
+      "motherTongue": "Telugu",
+      "languages": [
+        "Telugu",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Hyderabad",
+      "timeOfBirth": "06:30 PM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Osmania University",
+      "degree": "B.Com",
+      "pgDegree": "MBA",
+      "company": "Amazon",
+      "designation": "Operations Lead",
+      "income": "₹28 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Traditional",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "Shortlisted",
+      "stageBg": "#DBEAFE",
+      "stageColor": "#1E40AF",
+      "addedDate": "10 Feb 2026",
+      "lastActivity": "2026-06-02T14:45:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1006",
+    "firstName": "Reyansh",
+    "lastName": "Patel",
+    "fullName": "Reyansh Patel",
+    "age": 26,
+    "dateOfBirth": "30 Dec 1999",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Business minded and grounded.",
+    "contact": {
+      "email": "reyansh.p@example.com",
+      "phone": "+91 9876543206"
+    },
+    "location": {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "relocationFlexibility": "Flexible in Gujarat"
+    },
+    "physicalAttributes": {
+      "height": "5'7\" / 170 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Patel",
+      "subCaste": "Leuva",
+      "gotra": "Not Specified",
+      "motherTongue": "Gujarati",
+      "languages": [
+        "Gujarati",
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Ahmedabad",
+      "timeOfBirth": "02:15 PM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Nirma University",
+      "degree": "B.Tech",
+      "pgDegree": "None",
+      "company": "Zomato",
+      "designation": "Data Scientist",
+      "income": "₹20 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Sister",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Traditional",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "Active Search",
+      "stageBg": "#DCFCE7",
+      "stageColor": "#166534",
+      "addedDate": "12 Feb 2026",
+      "lastActivity": "2026-06-01T16:20:00Z",
+      "verified": false,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1007",
+    "firstName": "Ayaan",
+    "lastName": "Desai",
+    "fullName": "Ayaan Desai",
+    "age": 30,
+    "dateOfBirth": "05 May 1996",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Maybe",
+    "about": "Quiet, simple, and caring.",
+    "contact": {
+      "email": "ayaan.d@example.com",
+      "phone": "+91 9876543207"
+    },
+    "location": {
+      "city": "Surat",
+      "state": "Gujarat",
+      "relocationFlexibility": "Flexible globally"
+    },
+    "physicalAttributes": {
+      "height": "5'11\" / 180 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": "Anavil",
+      "gotra": "Vashistha",
+      "motherTongue": "Gujarati",
+      "languages": [
+        "Gujarati",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Surat",
+      "timeOfBirth": "08:10 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "SVNIT",
+      "degree": "B.E.",
+      "pgDegree": "M.Tech",
+      "company": "IBM",
+      "designation": "System Architect",
+      "income": "₹32 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "New Lead",
+      "stageBg": "#FEE2E2",
+      "stageColor": "#991B1B",
+      "addedDate": "18 Feb 2026",
+      "lastActivity": "2026-06-03T10:10:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1008",
+    "firstName": "Krishna",
+    "lastName": "Shah",
+    "fullName": "Krishna Shah",
+    "age": 29,
+    "dateOfBirth": "14 Sep 1996",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Finance professional who loves movies.",
+    "contact": {
+      "email": "krishna.s@example.com",
+      "phone": "+91 9876543208"
+    },
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "relocationFlexibility": "Prefers Mumbai"
+    },
+    "physicalAttributes": {
+      "height": "5'6\" / 168 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Jain",
+      "caste": "Jain",
+      "subCaste": "Shwetambar",
+      "gotra": "Not Specified",
+      "motherTongue": "Gujarati",
+      "languages": [
+        "Gujarati",
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Mumbai",
+      "timeOfBirth": "01:45 PM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "HR College",
+      "degree": "B.Com",
+      "pgDegree": "CA",
+      "company": "Deloitte",
+      "designation": "Audit Manager",
+      "income": "₹25 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Jain",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Brother",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Traditional",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "Match Sent",
+      "stageBg": "#EDE9FE",
+      "stageColor": "#5B21B6",
+      "addedDate": "22 Feb 2026",
+      "lastActivity": "2026-06-04T09:00:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1009",
+    "firstName": "Ishaan",
+    "lastName": "Mehta",
+    "fullName": "Ishaan Mehta",
+    "age": 34,
+    "dateOfBirth": "11 Oct 1991",
+    "gender": "Male",
+    "maritalStatus": "Divorced",
+    "wantKids": "No",
+    "about": "Loves outdoor activities and cooking.",
+    "contact": {
+      "email": "ishaan.m@example.com",
+      "phone": "+91 9876543209"
+    },
+    "location": {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "6'1\" / 185 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": "Not Specified",
+      "gotra": "Kashyap",
+      "motherTongue": "English",
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Chennai",
+      "timeOfBirth": "10:10 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "IIT Madras",
+      "degree": "B.Tech",
+      "pgDegree": "Ph.D",
+      "company": "Google",
+      "designation": "Research Scientist",
+      "income": "₹65 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Affluent",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "Profile Review",
+      "stageBg": "#FEF3C7",
+      "stageColor": "#92400E",
+      "addedDate": "01 Mar 2026",
+      "lastActivity": "2026-06-03T18:45:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1010",
+    "firstName": "Shaurya",
+    "lastName": "Joshi",
+    "fullName": "Shaurya Joshi",
+    "age": 28,
+    "dateOfBirth": "19 Jul 1997",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Maybe",
+    "about": "Passionate about art and history.",
+    "contact": {
+      "email": "shaurya.j@example.com",
+      "phone": "+91 9876543210"
+    },
+    "location": {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "relocationFlexibility": "Flexible globally"
+    },
+    "physicalAttributes": {
+      "height": "5'9\" / 175 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": "Gaur",
+      "gotra": "Vashistha",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English",
+        "Marwari"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Jaipur",
+      "timeOfBirth": "11:50 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Manipal University",
+      "degree": "BA",
+      "pgDegree": "MA",
+      "company": "Ogilvy",
+      "designation": "Copywriter",
+      "income": "₹10 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "2 Sisters",
+      "familyType": "Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "In Conversation",
+      "stageBg": "#E0F2FE",
+      "stageColor": "#0369A1",
+      "addedDate": "05 Mar 2026",
+      "lastActivity": "2026-06-04T08:30:00Z",
+      "verified": false,
+      "timelineToMarry": "Within 2 years",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1011",
+    "firstName": "Atharva",
+    "lastName": "Kapoor",
+    "fullName": "Atharva Kapoor",
+    "age": 31,
+    "dateOfBirth": "21 Apr 1995",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Driven professional looking for a life partner.",
+    "contact": {
+      "email": "atharva.k@example.com",
+      "phone": "+91 9876543211"
+    },
+    "location": {
+      "city": "Delhi",
+      "state": "Delhi",
+      "relocationFlexibility": "Prefers NCR"
+    },
+    "physicalAttributes": {
+      "height": "5'10\" / 178 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Khatri",
+      "subCaste": "Not Specified",
+      "gotra": "Kashyap",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "Punjabi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Delhi",
+      "timeOfBirth": "04:20 PM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Delhi University",
+      "degree": "B.Com",
+      "pgDegree": "MBA",
+      "company": "Accenture",
+      "designation": "Consultant",
+      "income": "₹22 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "Match Sent",
+      "stageBg": "#EDE9FE",
+      "stageColor": "#5B21B6",
+      "addedDate": "10 Mar 2026",
+      "lastActivity": "2026-06-01T14:20:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1012",
+    "firstName": "Aaryan",
+    "lastName": "Malhotra",
+    "fullName": "Aaryan Malhotra",
+    "age": 25,
+    "dateOfBirth": "08 Nov 2000",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Maybe",
+    "about": "Adventurous and spontaneous.",
+    "contact": {
+      "email": "aaryan.m@example.com",
+      "phone": "+91 9876543212"
+    },
+    "location": {
+      "city": "Chandigarh",
+      "state": "Punjab",
+      "relocationFlexibility": "Flexible globally"
+    },
+    "physicalAttributes": {
+      "height": "6'0\" / 183 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Khatri",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Punjabi",
+      "languages": [
+        "Punjabi",
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "Don't Know",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Chandigarh",
+      "timeOfBirth": "09:00 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Thapar Institute",
+      "degree": "B.E.",
+      "pgDegree": "None",
+      "company": "Wipro",
+      "designation": "Software Developer",
+      "income": "₹8 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "Occasionally"
+    },
+    "familyDetails": {
+      "siblings": "1 Sister",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "New Lead",
+      "stageBg": "#FEE2E2",
+      "stageColor": "#991B1B",
+      "addedDate": "15 Mar 2026",
+      "lastActivity": "2026-06-03T11:00:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 2 years",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1013",
+    "firstName": "Karan",
+    "lastName": "Agarwal",
+    "fullName": "Karan Agarwal",
+    "age": 30,
+    "dateOfBirth": "03 Feb 1996",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Enjoys classical music and reading.",
+    "contact": {
+      "email": "karan.a@example.com",
+      "phone": "+91 9876543213"
+    },
+    "location": {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'8\" / 173 cm",
+      "openToPets": "Maybe"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Agarwal",
+      "subCaste": "Not Specified",
+      "gotra": "Garg",
+      "motherTongue": "Bengali",
+      "languages": [
+        "Bengali",
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Kolkata",
+      "timeOfBirth": "10:00 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "St. Xavier's College",
+      "degree": "B.Sc",
+      "pgDegree": "M.Sc",
+      "company": "Cognizant",
+      "designation": "Data Analyst",
+      "income": "₹16 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Brother",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Traditional",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "Active Search",
+      "stageBg": "#DCFCE7",
+      "stageColor": "#166534",
+      "addedDate": "20 Mar 2026",
+      "lastActivity": "2026-06-04T13:45:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1014",
+    "firstName": "Rahul",
+    "lastName": "Reddy",
+    "fullName": "Rahul Reddy",
+    "age": 29,
+    "dateOfBirth": "17 Dec 1996",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Tech-savvy and easy-going.",
+    "contact": {
+      "email": "rahul.r@example.com",
+      "phone": "+91 9876543214"
+    },
+    "location": {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'11\" / 180 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Reddy",
+      "subCaste": "Not Specified",
+      "gotra": "Shiva",
+      "motherTongue": "Telugu",
+      "languages": [
+        "Telugu",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Hyderabad",
+      "timeOfBirth": "07:30 PM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "BITS Pilani",
+      "degree": "B.E.",
+      "pgDegree": "None",
+      "company": "Oracle",
+      "designation": "Software Engineer",
+      "income": "₹38 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "Active Search",
+      "stageBg": "#DCFCE7",
+      "stageColor": "#166534",
+      "addedDate": "25 Mar 2026",
+      "lastActivity": "2026-06-02T10:15:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1015",
+    "firstName": "Rohan",
+    "lastName": "Rao",
+    "fullName": "Rohan Rao",
+    "age": 33,
+    "dateOfBirth": "22 Jun 1992",
+    "gender": "Male",
+    "maritalStatus": "Divorced",
+    "wantKids": "Maybe",
+    "about": "Loves hiking and exploring new cafes.",
+    "contact": {
+      "email": "rohan.rao@example.com",
+      "phone": "+91 9876543215"
+    },
+    "location": {
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "relocationFlexibility": "Prefers Bangalore"
+    },
+    "physicalAttributes": {
+      "height": "6'2\" / 188 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": "Not Specified",
+      "gotra": "Bharadwaj",
+      "motherTongue": "Kannada",
+      "languages": [
+        "Kannada",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Bangalore",
+      "timeOfBirth": "09:00 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "RVCE",
+      "degree": "B.E.",
+      "pgDegree": "MS",
+      "company": "Meta",
+      "designation": "Engineering Manager",
+      "income": "₹55 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Sister",
+      "familyType": "Affluent",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "Match Sent",
+      "stageBg": "#EDE9FE",
+      "stageColor": "#5B21B6",
+      "addedDate": "02 Apr 2026",
+      "lastActivity": "2026-06-03T16:30:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1016",
+    "firstName": "Amit",
+    "lastName": "Iyer",
+    "fullName": "Amit Iyer",
+    "age": 27,
+    "dateOfBirth": "12 Aug 1998",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Quiet and values traditions.",
+    "contact": {
+      "email": "amit.iyer@example.com",
+      "phone": "+91 9876543216"
+    },
+    "location": {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'9\" / 175 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Iyer",
+      "subCaste": "Not Specified",
+      "gotra": "Srivatsa",
+      "motherTongue": "Tamil",
+      "languages": [
+        "Tamil",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Chennai",
+      "timeOfBirth": "06:15 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Loyola College",
+      "degree": "B.Com",
+      "pgDegree": "CA",
+      "company": "PwC",
+      "designation": "Tax Consultant",
+      "income": "₹18 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "2 Brothers",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Traditional",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "Active Search",
+      "stageBg": "#DCFCE7",
+      "stageColor": "#166534",
+      "addedDate": "05 Apr 2026",
+      "lastActivity": "2026-06-04T07:45:00Z",
+      "verified": false,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1017",
+    "firstName": "Manish",
+    "lastName": "Nair",
+    "fullName": "Manish Nair",
+    "age": 30,
+    "dateOfBirth": "09 Sep 1995",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Maybe",
+    "about": "Nature lover, calm personality.",
+    "contact": {
+      "email": "manish.nair@example.com",
+      "phone": "+91 9876543217"
+    },
+    "location": {
+      "city": "Kochi",
+      "state": "Kerala",
+      "relocationFlexibility": "Flexible globally"
+    },
+    "physicalAttributes": {
+      "height": "5'10\" / 178 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Nair",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Malayalam",
+      "languages": [
+        "Malayalam",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Kochi",
+      "timeOfBirth": "08:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "NIT Calicut",
+      "degree": "B.Tech",
+      "pgDegree": "None",
+      "company": "Infosys",
+      "designation": "Senior Engineer",
+      "income": "₹21 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "Active Search",
+      "stageBg": "#DCFCE7",
+      "stageColor": "#166534",
+      "addedDate": "10 Apr 2026",
+      "lastActivity": "2026-06-01T12:30:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1018",
+    "firstName": "Neeraj",
+    "lastName": "Menon",
+    "fullName": "Neeraj Menon",
+    "age": 28,
+    "dateOfBirth": "24 Jan 1998",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Extroverted and funny.",
+    "contact": {
+      "email": "neeraj.m@example.com",
+      "phone": "+91 9876543218"
+    },
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'8\" / 173 cm",
+      "openToPets": "Maybe"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Menon",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Malayalam",
+      "languages": [
+        "Malayalam",
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Mumbai",
+      "timeOfBirth": "10:00 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "NMIMS",
+      "degree": "BBA",
+      "pgDegree": "MBA",
+      "company": "HDFC Bank",
+      "designation": "Branch Manager",
+      "income": "₹24 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Sister",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "Matched",
+      "stageBg": "#F3E8FF",
+      "stageColor": "#6B21A8",
+      "addedDate": "12 Apr 2026",
+      "lastActivity": "2026-06-03T15:20:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1019",
+    "firstName": "Vikram",
+    "lastName": "Pillai",
+    "fullName": "Vikram Pillai",
+    "age": 32,
+    "dateOfBirth": "16 Nov 1993",
+    "gender": "Male",
+    "maritalStatus": "Divorced",
+    "wantKids": "No",
+    "about": "Looking for a meaningful connection.",
+    "contact": {
+      "email": "vikram.p@example.com",
+      "phone": "+91 9876543219"
+    },
+    "location": {
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "relocationFlexibility": "Prefers Bangalore"
+    },
+    "physicalAttributes": {
+      "height": "5'11\" / 180 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Pillai",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Malayalam",
+      "languages": [
+        "Malayalam",
+        "English",
+        "Kannada"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Bangalore",
+      "timeOfBirth": "09:20 PM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Christ University",
+      "degree": "B.Com",
+      "pgDegree": "M.Com",
+      "company": "KPMG",
+      "designation": "Manager",
+      "income": "₹30 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "In Conversation",
+      "stageBg": "#E0F2FE",
+      "stageColor": "#0369A1",
+      "addedDate": "15 Apr 2026",
+      "lastActivity": "2026-06-04T10:00:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1020",
+    "firstName": "Siddharth",
+    "lastName": "Das",
+    "fullName": "Siddharth Das",
+    "age": 29,
+    "dateOfBirth": "29 Oct 1996",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Maybe",
+    "about": "Intellectual and loves reading poetry.",
+    "contact": {
+      "email": "siddharth.d@example.com",
+      "phone": "+91 9876543220"
+    },
+    "location": {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "relocationFlexibility": "Open to tier-1 metro cities"
+    },
+    "physicalAttributes": {
+      "height": "5'7\" / 170 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Kayastha",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Bengali",
+      "languages": [
+        "Bengali",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Kolkata",
+      "timeOfBirth": "11:00 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Jadavpur University",
+      "degree": "B.A.",
+      "pgDegree": "M.A.",
+      "company": "Pearson",
+      "designation": "Editor",
+      "income": "₹12 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "Occasionally"
+    },
+    "familyDetails": {
+      "siblings": "1 Brother",
+      "familyType": "Middle Class",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "Active Search",
+      "stageBg": "#DCFCE7",
+      "stageColor": "#166534",
+      "addedDate": "18 Apr 2026",
+      "lastActivity": "2026-06-02T13:40:00Z",
+      "verified": false,
+      "timelineToMarry": "Within 2 years",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1021",
+    "firstName": "Kunal",
+    "lastName": "Bose",
+    "fullName": "Kunal Bose",
+    "age": 26,
+    "dateOfBirth": "04 May 1999",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Energetic and loves sports.",
+    "contact": {
+      "email": "kunal.b@example.com",
+      "phone": "+91 9876543221"
+    },
+    "location": {
+      "city": "Delhi",
+      "state": "Delhi",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'10\" / 178 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Kayastha",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Bengali",
+      "languages": [
+        "Bengali",
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Delhi",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Delhi Tech University",
+      "degree": "B.Tech",
+      "pgDegree": "None",
+      "company": "Paytm",
+      "designation": "Product Analyst",
+      "income": "₹15 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "Active Search",
+      "stageBg": "#DCFCE7",
+      "stageColor": "#166534",
+      "addedDate": "22 Apr 2026",
+      "lastActivity": "2026-06-01T09:15:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1022",
+    "firstName": "Rohit",
+    "lastName": "Dutta",
+    "fullName": "Rohit Dutta",
+    "age": 31,
+    "dateOfBirth": "13 Jul 1994",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Marketing guru, loves traveling.",
+    "contact": {
+      "email": "rohit.d@example.com",
+      "phone": "+91 9876543222"
+    },
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "relocationFlexibility": "Flexible globally"
+    },
+    "physicalAttributes": {
+      "height": "6'0\" / 183 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": "Not Specified",
+      "gotra": "Bharadwaj",
+      "motherTongue": "Bengali",
+      "languages": [
+        "Bengali",
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Mumbai",
+      "timeOfBirth": "09:15 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "MICA",
+      "degree": "PGDM",
+      "pgDegree": "None",
+      "company": "HUL",
+      "designation": "Brand Manager",
+      "income": "₹40 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Sister",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "Profile Review",
+      "stageBg": "#FEF3C7",
+      "stageColor": "#92400E",
+      "addedDate": "25 Apr 2026",
+      "lastActivity": "2026-06-04T11:50:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1023",
+    "firstName": "Suraj",
+    "lastName": "Banerjee",
+    "fullName": "Suraj Banerjee",
+    "age": 28,
+    "dateOfBirth": "18 Dec 1997",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Maybe",
+    "about": "Focused on career, enjoys weekend coding.",
+    "contact": {
+      "email": "suraj.b@example.com",
+      "phone": "+91 9876543223"
+    },
+    "location": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'9\" / 175 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": "Not Specified",
+      "gotra": "Sandilya",
+      "motherTongue": "Bengali",
+      "languages": [
+        "Bengali",
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Pune",
+      "timeOfBirth": "07:20 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "VIT Vellore",
+      "degree": "B.Tech",
+      "pgDegree": "None",
+      "company": "Tech Mahindra",
+      "designation": "Software Engineer",
+      "income": "₹14 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "Active Search",
+      "stageBg": "#DCFCE7",
+      "stageColor": "#166534",
+      "addedDate": "28 Apr 2026",
+      "lastActivity": "2026-06-03T08:30:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1024",
+    "firstName": "Ajay",
+    "lastName": "Mukherjee",
+    "fullName": "Ajay Mukherjee",
+    "age": 35,
+    "dateOfBirth": "23 Feb 1991",
+    "gender": "Male",
+    "maritalStatus": "Widowed",
+    "wantKids": "Yes",
+    "about": "Mature, established, values family.",
+    "contact": {
+      "email": "ajay.m@example.com",
+      "phone": "+91 9876543224"
+    },
+    "location": {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "relocationFlexibility": "Open to tier-1 metro cities"
+    },
+    "physicalAttributes": {
+      "height": "5'11\" / 180 cm",
+      "openToPets": "Maybe"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": "Kulin",
+      "gotra": "Sandilya",
+      "motherTongue": "Bengali",
+      "languages": [
+        "Bengali",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Kolkata",
+      "timeOfBirth": "08:45 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "IIT Kharagpur",
+      "degree": "B.Tech",
+      "pgDegree": "MBA",
+      "company": "ITC",
+      "designation": "General Manager",
+      "income": "₹60 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Brother",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "Matched",
+      "stageBg": "#F3E8FF",
+      "stageColor": "#6B21A8",
+      "addedDate": "01 May 2026",
+      "lastActivity": "2026-06-04T16:10:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1025",
+    "firstName": "Vijay",
+    "lastName": "Sen",
+    "fullName": "Vijay Sen",
+    "age": 27,
+    "dateOfBirth": "07 Aug 1998",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "No",
+    "about": "Design enthusiast, loves typography.",
+    "contact": {
+      "email": "vijay.s@example.com",
+      "phone": "+91 9876543225"
+    },
+    "location": {
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'8\" / 173 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Baidya",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Bengali",
+      "languages": [
+        "Bengali",
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Bangalore",
+      "timeOfBirth": "10:10 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "NID",
+      "degree": "B.Des",
+      "pgDegree": "None",
+      "company": "Swiggy",
+      "designation": "UX Designer",
+      "income": "₹18 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "2 Sisters",
+      "familyType": "Middle Class",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "In Conversation",
+      "stageBg": "#E0F2FE",
+      "stageColor": "#0369A1",
+      "addedDate": "05 May 2026",
+      "lastActivity": "2026-06-02T17:00:00Z",
+      "verified": false,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1026",
+    "firstName": "Sanjay",
+    "lastName": "Roy",
+    "fullName": "Sanjay Roy",
+    "age": 30,
+    "dateOfBirth": "14 Nov 1995",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Politically aware, enjoys debates.",
+    "contact": {
+      "email": "sanjay.r@example.com",
+      "phone": "+91 9876543226"
+    },
+    "location": {
+      "city": "Delhi",
+      "state": "Delhi",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "6'0\" / 183 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Kayastha",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Delhi",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "JNU",
+      "degree": "BA",
+      "pgDegree": "MA",
+      "company": "Times of India",
+      "designation": "Journalist",
+      "income": "₹12 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Middle Class",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "Active Search",
+      "stageBg": "#DCFCE7",
+      "stageColor": "#166534",
+      "addedDate": "08 May 2026",
+      "lastActivity": "2026-06-04T14:20:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1027",
+    "firstName": "Rakesh",
+    "lastName": "Choudhury",
+    "fullName": "Rakesh Choudhury",
+    "age": 33,
+    "dateOfBirth": "30 Jan 1993",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Maybe",
+    "about": "Tea lover, enjoys long drives.",
+    "contact": {
+      "email": "rakesh.c@example.com",
+      "phone": "+91 9876543227"
+    },
+    "location": {
+      "city": "Guwahati",
+      "state": "Assam",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'9\" / 175 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Kalita",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Assamese",
+      "languages": [
+        "Assamese",
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Guwahati",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Gauhati University",
+      "degree": "B.Com",
+      "pgDegree": "MBA",
+      "company": "SBI",
+      "designation": "Branch Manager",
+      "income": "₹15 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Brother",
+      "familyType": "Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "In Conversation",
+      "stageBg": "#E0F2FE",
+      "stageColor": "#0369A1",
+      "addedDate": "10 May 2026",
+      "lastActivity": "2026-06-03T12:15:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1028",
+    "firstName": "Suresh",
+    "lastName": "Chauhan",
+    "fullName": "Suresh Chauhan",
+    "age": 29,
+    "dateOfBirth": "11 Mar 1997",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Family business owner, hard worker.",
+    "contact": {
+      "email": "suresh.c@example.com",
+      "phone": "+91 9876543228"
+    },
+    "location": {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "relocationFlexibility": "Prefers Gujarat"
+    },
+    "physicalAttributes": {
+      "height": "5'10\" / 178 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Rajput",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Gujarati",
+      "languages": [
+        "Gujarati",
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Ahmedabad",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Gujarat University",
+      "degree": "BBA",
+      "pgDegree": "None",
+      "company": "Chauhan Enterprises",
+      "designation": "Director",
+      "income": "₹35 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Sister",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Traditional",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "Profile Review",
+      "stageBg": "#FEF3C7",
+      "stageColor": "#92400E",
+      "addedDate": "12 May 2026",
+      "lastActivity": "2026-06-04T09:45:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1029",
+    "firstName": "Ramesh",
+    "lastName": "Rajput",
+    "fullName": "Ramesh Rajput",
+    "age": 25,
+    "dateOfBirth": "02 Oct 2000",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Maybe",
+    "about": "Gym enthusiast and foodie.",
+    "contact": {
+      "email": "ramesh.r@example.com",
+      "phone": "+91 9876543229"
+    },
+    "location": {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "6'1\" / 185 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Rajput",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "Don't Know",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Jaipur",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Amity University",
+      "degree": "BCA",
+      "pgDegree": "None",
+      "company": "TCS",
+      "designation": "System Analyst",
+      "income": "₹9 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "In Conversation",
+      "stageBg": "#E0F2FE",
+      "stageColor": "#0369A1",
+      "addedDate": "15 May 2026",
+      "lastActivity": "2026-06-01T11:10:00Z",
+      "verified": false,
+      "timelineToMarry": "Within 2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1030",
+    "firstName": "Mahesh",
+    "lastName": "Yadav",
+    "fullName": "Mahesh Yadav",
+    "age": 28,
+    "dateOfBirth": "25 May 1998",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Government employee, simple lifestyle.",
+    "contact": {
+      "email": "mahesh.y@example.com",
+      "phone": "+91 9876543230"
+    },
+    "location": {
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "relocationFlexibility": "Prefers Uttar Pradesh"
+    },
+    "physicalAttributes": {
+      "height": "5'9\" / 175 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Yadav",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Lucknow",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Lucknow University",
+      "degree": "B.Sc",
+      "pgDegree": "None",
+      "company": "UP Govt",
+      "designation": "Clerk",
+      "income": "₹6 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "2 Brothers",
+      "familyType": "Middle Class",
+      "familyValues": "Traditional",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "Active Search",
+      "stageBg": "#DCFCE7",
+      "stageColor": "#166534",
+      "addedDate": "18 May 2026",
+      "lastActivity": "2026-06-04T15:30:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1031",
+    "firstName": "Mukesh",
+    "lastName": "Thakur",
+    "fullName": "Mukesh Thakur",
+    "age": 31,
+    "dateOfBirth": "09 Sep 1994",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Loves photography and trekking.",
+    "contact": {
+      "email": "mukesh.t@example.com",
+      "phone": "+91 9876543231"
+    },
+    "location": {
+      "city": "Bhopal",
+      "state": "Madhya Pradesh",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'10\" / 178 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Rajput",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Bhopal",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "MANIT Bhopal",
+      "degree": "B.Tech",
+      "pgDegree": "None",
+      "company": "L&T",
+      "designation": "Civil Engineer",
+      "income": "₹14 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Sister",
+      "familyType": "Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "New Lead",
+      "stageBg": "#FEE2E2",
+      "stageColor": "#991B1B",
+      "addedDate": "20 May 2026",
+      "lastActivity": "2026-06-03T10:20:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1032",
+    "firstName": "Anil",
+    "lastName": "Jain",
+    "fullName": "Anil Jain",
+    "age": 27,
+    "dateOfBirth": "14 Apr 1999",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Maybe",
+    "about": "Strictly vegetarian, family oriented.",
+    "contact": {
+      "email": "anil.j@example.com",
+      "phone": "+91 9876543232"
+    },
+    "location": {
+      "city": "Indore",
+      "state": "Madhya Pradesh",
+      "relocationFlexibility": "Flexible globally"
+    },
+    "physicalAttributes": {
+      "height": "5'7\" / 170 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Jain",
+      "caste": "Jain",
+      "subCaste": "Digambar",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Indore",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "DAVV",
+      "degree": "B.Com",
+      "pgDegree": "CA",
+      "company": "EY",
+      "designation": "Consultant",
+      "income": "₹20 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Jain",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Traditional",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "Active Search",
+      "stageBg": "#DCFCE7",
+      "stageColor": "#166534",
+      "addedDate": "22 May 2026",
+      "lastActivity": "2026-06-04T12:45:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1033",
+    "firstName": "Sunil",
+    "lastName": "Bhatia",
+    "fullName": "Sunil Bhatia",
+    "age": 34,
+    "dateOfBirth": "21 Dec 1991",
+    "gender": "Male",
+    "maritalStatus": "Divorced",
+    "wantKids": "No",
+    "about": "Enjoys fine dining and golf.",
+    "contact": {
+      "email": "sunil.b@example.com",
+      "phone": "+91 9876543233"
+    },
+    "location": {
+      "city": "Delhi",
+      "state": "Delhi",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "6'0\" / 183 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Khatri",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "Punjabi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Delhi",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "SRCC",
+      "degree": "B.Com",
+      "pgDegree": "MBA",
+      "company": "Barclays",
+      "designation": "VP Finance",
+      "income": "₹70 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Brother",
+      "familyType": "Affluent",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "Shortlisted",
+      "stageBg": "#DBEAFE",
+      "stageColor": "#1E40AF",
+      "addedDate": "25 May 2026",
+      "lastActivity": "2026-06-01T16:50:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1034",
+    "firstName": "Vinod",
+    "lastName": "Chawla",
+    "fullName": "Vinod Chawla",
+    "age": 29,
+    "dateOfBirth": "05 Jun 1996",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Bollywood buff and dancer.",
+    "contact": {
+      "email": "vinod.c@example.com",
+      "phone": "+91 9876543234"
+    },
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "relocationFlexibility": "Prefers Mumbai"
+    },
+    "physicalAttributes": {
+      "height": "5'8\" / 173 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Arora",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Mumbai",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Mithibai College",
+      "degree": "BMM",
+      "pgDegree": "None",
+      "company": "Viacom18",
+      "designation": "Producer",
+      "income": "₹18 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Sister",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "Shortlisted",
+      "stageBg": "#DBEAFE",
+      "stageColor": "#1E40AF",
+      "addedDate": "28 May 2026",
+      "lastActivity": "2026-06-04T09:10:00Z",
+      "verified": false,
+      "timelineToMarry": "Within 2 years",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1035",
+    "firstName": "Pramod",
+    "lastName": "Ahuja",
+    "fullName": "Pramod Ahuja",
+    "age": 26,
+    "dateOfBirth": "18 Aug 1999",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Maybe",
+    "about": "Quiet and analytical.",
+    "contact": {
+      "email": "pramod.a@example.com",
+      "phone": "+91 9876543235"
+    },
+    "location": {
+      "city": "Chandigarh",
+      "state": "Punjab",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'11\" / 180 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Arora",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Punjabi",
+      "languages": [
+        "Punjabi",
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Chandigarh",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "PEC",
+      "degree": "B.Tech",
+      "pgDegree": "None",
+      "company": "Infosys",
+      "designation": "Software Engineer",
+      "income": "₹10 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "Match Sent",
+      "stageBg": "#EDE9FE",
+      "stageColor": "#5B21B6",
+      "addedDate": "30 May 2026",
+      "lastActivity": "2026-06-03T14:40:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1036",
+    "firstName": "Pravin",
+    "lastName": "Khanna",
+    "fullName": "Pravin Khanna",
+    "age": 30,
+    "dateOfBirth": "12 Nov 1995",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Avid traveler, covered 15 countries.",
+    "contact": {
+      "email": "pravin.k@example.com",
+      "phone": "+91 9876543236"
+    },
+    "location": {
+      "city": "Delhi",
+      "state": "Delhi",
+      "relocationFlexibility": "Flexible globally"
+    },
+    "physicalAttributes": {
+      "height": "5'9\" / 175 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Khatri",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Delhi",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Delhi University",
+      "degree": "BA",
+      "pgDegree": "MBA",
+      "company": "MakeMyTrip",
+      "designation": "Product Manager",
+      "income": "₹28 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Brother",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "Active Search",
+      "stageBg": "#DCFCE7",
+      "stageColor": "#166534",
+      "addedDate": "01 Jun 2026",
+      "lastActivity": "2026-06-04T17:20:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1037",
+    "firstName": "Nitin",
+    "lastName": "Chopra",
+    "fullName": "Nitin Chopra",
+    "age": 33,
+    "dateOfBirth": "27 Mar 1993",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Maybe",
+    "about": "Loves cooking and hosting.",
+    "contact": {
+      "email": "nitin.c@example.com",
+      "phone": "+91 9876543237"
+    },
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "6'1\" / 185 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Khatri",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Mumbai",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "IHM Mumbai",
+      "degree": "B.Sc Hospitality",
+      "pgDegree": "None",
+      "company": "Taj Hotels",
+      "designation": "Executive Chef",
+      "income": "₹35 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "Inactive",
+      "stageBg": "#F1F5F9",
+      "stageColor": "#475569",
+      "addedDate": "01 Jun 2026",
+      "lastActivity": "2026-06-04T10:30:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1038",
+    "firstName": "Sachin",
+    "lastName": "Tiwari",
+    "fullName": "Sachin Tiwari",
+    "age": 28,
+    "dateOfBirth": "09 Feb 1998",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Traditional values, modern outlook.",
+    "contact": {
+      "email": "sachin.t@example.com",
+      "phone": "+91 9876543238"
+    },
+    "location": {
+      "city": "Varanasi",
+      "state": "Uttar Pradesh",
+      "relocationFlexibility": "Prefers Uttar Pradesh"
+    },
+    "physicalAttributes": {
+      "height": "5'10\" / 178 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": "Saryupareen",
+      "gotra": "Shandilya",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Varanasi",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "BHU",
+      "degree": "B.A.",
+      "pgDegree": "M.A.",
+      "company": "Self Employed",
+      "designation": "Tutor",
+      "income": "₹8 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "2 Sisters",
+      "familyType": "Middle Class",
+      "familyValues": "Traditional",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "Active Search",
+      "stageBg": "#DCFCE7",
+      "stageColor": "#166534",
+      "addedDate": "02 Jun 2026",
+      "lastActivity": "2026-06-03T11:10:00Z",
+      "verified": false,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1039",
+    "firstName": "Vishal",
+    "lastName": "Mishra",
+    "fullName": "Vishal Mishra",
+    "age": 31,
+    "dateOfBirth": "15 Jul 1994",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Hardworking and reliable.",
+    "contact": {
+      "email": "vishal.m@example.com",
+      "phone": "+91 9876543239"
+    },
+    "location": {
+      "city": "Kanpur",
+      "state": "Uttar Pradesh",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'8\" / 173 cm",
+      "openToPets": "Maybe"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Kanpur",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "HBTU Kanpur",
+      "degree": "B.Tech",
+      "pgDegree": "None",
+      "company": "Tata Motors",
+      "designation": "Mechanical Engineer",
+      "income": "₹15 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Brother",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "In Conversation",
+      "stageBg": "#E0F2FE",
+      "stageColor": "#0369A1",
+      "addedDate": "02 Jun 2026",
+      "lastActivity": "2026-06-04T13:00:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1040",
+    "firstName": "Vikas",
+    "lastName": "Pandey",
+    "fullName": "Vikas Pandey",
+    "age": 27,
+    "dateOfBirth": "22 Sep 1998",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Prepping for civil services.",
+    "contact": {
+      "email": "vikas.p@example.com",
+      "phone": "+91 9876543240"
+    },
+    "location": {
+      "city": "Patna",
+      "state": "Bihar",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'9\" / 175 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Bhojpuri",
+      "languages": [
+        "Bhojpuri",
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Patna",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Patna University",
+      "degree": "B.Sc",
+      "pgDegree": "None",
+      "company": "None",
+      "designation": "Aspirant",
+      "income": "₹0 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Middle Class",
+      "familyValues": "Traditional",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "New Lead",
+      "stageBg": "#FEE2E2",
+      "stageColor": "#991B1B",
+      "addedDate": "03 Jun 2026",
+      "lastActivity": "2026-06-04T09:20:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 2 years",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1041",
+    "firstName": "Akash",
+    "lastName": "Dixit",
+    "fullName": "Akash Dixit",
+    "age": 25,
+    "dateOfBirth": "30 Nov 2000",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Maybe",
+    "about": "Gamer and tech geek.",
+    "contact": {
+      "email": "akash.d@example.com",
+      "phone": "+91 9876543241"
+    },
+    "location": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "6'0\" / 183 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "Marathi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Pune",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "COEP",
+      "degree": "B.Tech",
+      "pgDegree": "None",
+      "company": "Ubisoft",
+      "designation": "Game Developer",
+      "income": "₹12 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Sister",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "Active Search",
+      "stageBg": "#DCFCE7",
+      "stageColor": "#166534",
+      "addedDate": "03 Jun 2026",
+      "lastActivity": "2026-06-04T14:15:00Z",
+      "verified": false,
+      "timelineToMarry": "Within 2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1042",
+    "firstName": "Akshay",
+    "lastName": "Dubey",
+    "fullName": "Akshay Dubey",
+    "age": 29,
+    "dateOfBirth": "10 Jan 1997",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Loves classical dance and music.",
+    "contact": {
+      "email": "akshay.d@example.com",
+      "phone": "+91 9876543242"
+    },
+    "location": {
+      "city": "Bhubaneswar",
+      "state": "Odisha",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'10\" / 178 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Odia",
+      "languages": [
+        "Odia",
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Bhubaneswar",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "KIIT",
+      "degree": "B.Tech",
+      "pgDegree": "MBA",
+      "company": "Mindtree",
+      "designation": "Project Manager",
+      "income": "₹22 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Traditional",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "Profile Review",
+      "stageBg": "#FEF3C7",
+      "stageColor": "#92400E",
+      "addedDate": "04 Jun 2026",
+      "lastActivity": "2026-06-04T16:45:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1043",
+    "firstName": "Ashish",
+    "lastName": "Shukla",
+    "fullName": "Ashish Shukla",
+    "age": 32,
+    "dateOfBirth": "18 Mar 1994",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Simple, focused on community work.",
+    "contact": {
+      "email": "ashish.s@example.com",
+      "phone": "+91 9876543243"
+    },
+    "location": {
+      "city": "Raipur",
+      "state": "Chhattisgarh",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'7\" / 170 cm",
+      "openToPets": "Maybe"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Raipur",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "NIT Raipur",
+      "degree": "B.Tech",
+      "pgDegree": "None",
+      "company": "NTPC",
+      "designation": "Engineer",
+      "income": "₹16 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Brother",
+      "familyType": "Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "Active Search",
+      "stageBg": "#DCFCE7",
+      "stageColor": "#166534",
+      "addedDate": "04 Jun 2026",
+      "lastActivity": "2026-06-04T11:30:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1044",
+    "firstName": "Abhishek",
+    "lastName": "Chaturvedi",
+    "fullName": "Abhishek Chaturvedi",
+    "age": 28,
+    "dateOfBirth": "25 Jul 1997",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "No",
+    "about": "Extroverted, loves stand-up comedy.",
+    "contact": {
+      "email": "abhishek.c@example.com",
+      "phone": "+91 9876543244"
+    },
+    "location": {
+      "city": "Delhi",
+      "state": "Delhi",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'11\" / 180 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Delhi",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Ambedkar University",
+      "degree": "BA",
+      "pgDegree": "MA",
+      "company": "Self Employed",
+      "designation": "Consultant",
+      "income": "₹15 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Middle Class",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "Active Search",
+      "stageBg": "#DCFCE7",
+      "stageColor": "#166534",
+      "addedDate": "04 Jun 2026",
+      "lastActivity": "2026-06-04T10:00:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 2 years",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1045",
+    "firstName": "Aditya",
+    "lastName": "Agnihotri",
+    "fullName": "Aditya Agnihotri",
+    "age": 26,
+    "dateOfBirth": "12 Feb 2000",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Maybe",
+    "about": "Film buff and amateur director.",
+    "contact": {
+      "email": "aditya.a@example.com",
+      "phone": "+91 9876543245"
+    },
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'10\" / 178 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Mumbai",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Xavier's",
+      "degree": "BMM",
+      "pgDegree": "None",
+      "company": "Freelance",
+      "designation": "Video Editor",
+      "income": "₹10 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Sister",
+      "familyType": "Middle Class",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "Profile Review",
+      "stageBg": "#FEF3C7",
+      "stageColor": "#92400E",
+      "addedDate": "04 Jun 2026",
+      "lastActivity": "2026-06-04T12:00:00Z",
+      "verified": false,
+      "timelineToMarry": "Within 2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1046",
+    "firstName": "Anand",
+    "lastName": "Tripathi",
+    "fullName": "Anand Tripathi",
+    "age": 35,
+    "dateOfBirth": "05 May 1991",
+    "gender": "Male",
+    "maritalStatus": "Divorced",
+    "wantKids": "Yes",
+    "about": "Professor, loves reading history.",
+    "contact": {
+      "email": "anand.t@example.com",
+      "phone": "+91 9876543246"
+    },
+    "location": {
+      "city": "Allahabad",
+      "state": "Uttar Pradesh",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'9\" / 175 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Allahabad",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Allahabad University",
+      "degree": "BA",
+      "pgDegree": "Ph.D",
+      "company": "Allahabad University",
+      "designation": "Assistant Professor",
+      "income": "₹12 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Traditional",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "Shortlisted",
+      "stageBg": "#DBEAFE",
+      "stageColor": "#1E40AF",
+      "addedDate": "04 Jun 2026",
+      "lastActivity": "2026-06-04T14:45:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1047",
+    "firstName": "Amar",
+    "lastName": "Soni",
+    "fullName": "Amar Soni",
+    "age": 30,
+    "dateOfBirth": "20 Sep 1995",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Jeweler by profession, quiet nature.",
+    "contact": {
+      "email": "amar.s@example.com",
+      "phone": "+91 9876543247"
+    },
+    "location": {
+      "city": "Surat",
+      "state": "Gujarat",
+      "relocationFlexibility": "Prefers Gujarat"
+    },
+    "physicalAttributes": {
+      "height": "5'7\" / 170 cm",
+      "openToPets": "Maybe"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Sonar",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Gujarati",
+      "languages": [
+        "Gujarati",
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Surat",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "VNSGU",
+      "degree": "B.Com",
+      "pgDegree": "None",
+      "company": "Soni Jewellers",
+      "designation": "Owner",
+      "income": "₹40 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "2 Brothers",
+      "familyType": "Affluent",
+      "familyValues": "Traditional",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "Shortlisted",
+      "stageBg": "#DBEAFE",
+      "stageColor": "#1E40AF",
+      "addedDate": "04 Jun 2026",
+      "lastActivity": "2026-06-04T08:15:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1048",
+    "firstName": "Arvind",
+    "lastName": "Khatri",
+    "fullName": "Arvind Khatri",
+    "age": 34,
+    "dateOfBirth": "14 Aug 1991",
+    "gender": "Male",
+    "maritalStatus": "Divorced",
+    "wantKids": "Yes",
+    "about": "Loves driving and weekend getaways.",
+    "contact": {
+      "email": "arvind.k@example.com",
+      "phone": "+91 9876543248"
+    },
+    "location": {
+      "city": "Delhi",
+      "state": "Delhi",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "6'0\" / 183 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Khatri",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "Punjabi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Delhi",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "IP University",
+      "degree": "BBA",
+      "pgDegree": "MBA",
+      "company": "Maruti Suzuki",
+      "designation": "Sales Head",
+      "income": "₹30 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Sister",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "Shortlisted",
+      "stageBg": "#DBEAFE",
+      "stageColor": "#1E40AF",
+      "addedDate": "04 Jun 2026",
+      "lastActivity": "2026-06-04T15:00:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1049",
+    "firstName": "Ashok",
+    "lastName": "Arora",
+    "fullName": "Ashok Arora",
+    "age": 29,
+    "dateOfBirth": "22 Nov 1996",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Maybe",
+    "about": "Friendly, foodie, and ambitious.",
+    "contact": {
+      "email": "ashok.a@example.com",
+      "phone": "+91 9876543249"
+    },
+    "location": {
+      "city": "Chandigarh",
+      "state": "Punjab",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'11\" / 180 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Arora",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Punjabi",
+      "languages": [
+        "Punjabi",
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Chandigarh",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Panjab University",
+      "degree": "B.Com",
+      "pgDegree": "CA",
+      "company": "KPMG",
+      "designation": "Senior Auditor",
+      "income": "₹24 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "New Lead",
+      "stageBg": "#FEE2E2",
+      "stageColor": "#991B1B",
+      "addedDate": "04 Jun 2026",
+      "lastActivity": "2026-06-04T17:10:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1050",
+    "firstName": "Balaji",
+    "lastName": "Kulkarni",
+    "fullName": "Balaji Kulkarni",
+    "age": 27,
+    "dateOfBirth": "10 Dec 1998",
+    "gender": "Male",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Tech geek, loves solving puzzles.",
+    "contact": {
+      "email": "balaji.k@example.com",
+      "phone": "+91 9876543250"
+    },
+    "location": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'8\" / 173 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Marathi",
+      "languages": [
+        "Marathi",
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Pune",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "PICT",
+      "degree": "B.E.",
+      "pgDegree": "None",
+      "company": "Persistent Systems",
+      "designation": "Software Engineer",
+      "income": "₹16 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Brother",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "Active Search",
+      "stageBg": "#DCFCE7",
+      "stageColor": "#166534",
+      "addedDate": "04 Jun 2026",
+      "lastActivity": "2026-06-04T18:00:00Z",
+      "verified": false,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1051",
+    "firstName": "Aditi",
+    "lastName": "Sharma",
+    "fullName": "Aditi Sharma",
+    "age": 26,
+    "dateOfBirth": "01 Jan 2000",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Loves painting and classical music.",
+    "contact": {
+      "email": "aditi.sharma@example.com",
+      "phone": "+91 9876543251"
+    },
+    "location": {
+      "city": "Delhi",
+      "state": "Delhi",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'4\" / 163 cm",
+      "openToPets": "Maybe"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Delhi",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Lady Shri Ram College",
+      "degree": "B.A.",
+      "pgDegree": "M.A.",
+      "company": "Penguin Random House",
+      "designation": "Editor",
+      "income": "₹10 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Brother",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "Inactive",
+      "stageBg": "#F1F5F9",
+      "stageColor": "#475569",
+      "addedDate": "15 Jan 2026",
+      "lastActivity": "2026-06-04T10:00:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1052",
+    "firstName": "Anjali",
+    "lastName": "Verma",
+    "fullName": "Anjali Verma",
+    "age": 28,
+    "dateOfBirth": "14 Feb 1998",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Maybe",
+    "about": "Ambitious and loves to travel.",
+    "contact": {
+      "email": "anjali.v@example.com",
+      "phone": "+91 9876543252"
+    },
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'5\" / 165 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Kshatriya",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "Marathi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Mumbai",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "St. Xavier's",
+      "degree": "B.Sc",
+      "pgDegree": "MBA",
+      "company": "Reliance",
+      "designation": "Marketing Manager",
+      "income": "₹18 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "Active Search",
+      "stageBg": "#DCFCE7",
+      "stageColor": "#166534",
+      "addedDate": "20 Jan 2026",
+      "lastActivity": "2026-06-03T11:20:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1053",
+    "firstName": "Ankita",
+    "lastName": "Gupta",
+    "fullName": "Ankita Gupta",
+    "age": 25,
+    "dateOfBirth": "22 May 2001",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Software dev by day, baker by night.",
+    "contact": {
+      "email": "ankita.g@example.com",
+      "phone": "+91 9876543253"
+    },
+    "location": {
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'3\" / 160 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Bania",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Bangalore",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "PES University",
+      "degree": "B.Tech",
+      "pgDegree": "None",
+      "company": "Amazon",
+      "designation": "SDE I",
+      "income": "₹22 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Sister",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "New Lead",
+      "stageBg": "#FEE2E2",
+      "stageColor": "#991B1B",
+      "addedDate": "05 Feb 2026",
+      "lastActivity": "2026-06-04T09:40:00Z",
+      "verified": false,
+      "timelineToMarry": "Within 2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1054",
+    "firstName": "Aarti",
+    "lastName": "Singh",
+    "fullName": "Aarti Singh",
+    "age": 29,
+    "dateOfBirth": "10 Jul 1996",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "No",
+    "about": "Fitness freak and dog lover.",
+    "contact": {
+      "email": "aarti.s@example.com",
+      "phone": "+91 9876543254"
+    },
+    "location": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'6\" / 168 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Rajput",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English",
+        "Marathi"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Pune",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Fergusson College",
+      "degree": "B.A.",
+      "pgDegree": "M.A. Psychology",
+      "company": "Self Employed",
+      "designation": "Therapist",
+      "income": "₹12 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Brother",
+      "familyType": "Middle Class",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "Active Search",
+      "stageBg": "#DCFCE7",
+      "stageColor": "#166534",
+      "addedDate": "12 Feb 2026",
+      "lastActivity": "2026-06-02T14:10:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1055",
+    "firstName": "Asha",
+    "lastName": "Kumar",
+    "fullName": "Asha Kumar",
+    "age": 31,
+    "dateOfBirth": "05 Nov 1994",
+    "gender": "Female",
+    "maritalStatus": "Divorced",
+    "wantKids": "Yes",
+    "about": "Family oriented and enjoys cooking.",
+    "contact": {
+      "email": "asha.k@example.com",
+      "phone": "+91 9876543255"
+    },
+    "location": {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'2\" / 157 cm",
+      "openToPets": "Maybe"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Reddy",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Telugu",
+      "languages": [
+        "Telugu",
+        "English",
+        "Hindi"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Hyderabad",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "JNTU",
+      "degree": "B.Tech",
+      "pgDegree": "None",
+      "company": "Deloitte",
+      "designation": "Tech Lead",
+      "income": "₹26 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Traditional",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "Profile Review",
+      "stageBg": "#FEF3C7",
+      "stageColor": "#92400E",
+      "addedDate": "18 Feb 2026",
+      "lastActivity": "2026-06-04T11:00:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1056",
+    "firstName": "Bhavna",
+    "lastName": "Patel",
+    "fullName": "Bhavna Patel",
+    "age": 27,
+    "dateOfBirth": "30 Aug 1998",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Maybe",
+    "about": "Entrepreneur, loves exploring cafes.",
+    "contact": {
+      "email": "bhavna.p@example.com",
+      "phone": "+91 9876543256"
+    },
+    "location": {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'4\" / 163 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Patel",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Gujarati",
+      "languages": [
+        "Gujarati",
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Ahmedabad",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "CEPT",
+      "degree": "B.Arch",
+      "pgDegree": "None",
+      "company": "Studio Bhavna",
+      "designation": "Principal Architect",
+      "income": "₹15 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Brother",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "Active Search",
+      "stageBg": "#DCFCE7",
+      "stageColor": "#166534",
+      "addedDate": "25 Feb 2026",
+      "lastActivity": "2026-06-01T15:30:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1057",
+    "firstName": "Chitra",
+    "lastName": "Desai",
+    "fullName": "Chitra Desai",
+    "age": 26,
+    "dateOfBirth": "12 Dec 1999",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Quiet and loves reading.",
+    "contact": {
+      "email": "chitra.d@example.com",
+      "phone": "+91 9876543257"
+    },
+    "location": {
+      "city": "Surat",
+      "state": "Gujarat",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'5\" / 165 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Gujarati",
+      "languages": [
+        "Gujarati",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Surat",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "VNSGU",
+      "degree": "B.Com",
+      "pgDegree": "CA",
+      "company": "KPMG",
+      "designation": "Associate",
+      "income": "₹14 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Traditional",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "Shortlisted",
+      "stageBg": "#DBEAFE",
+      "stageColor": "#1E40AF",
+      "addedDate": "01 Mar 2026",
+      "lastActivity": "2026-06-04T12:20:00Z",
+      "verified": false,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1058",
+    "firstName": "Deepa",
+    "lastName": "Shah",
+    "fullName": "Deepa Shah",
+    "age": 32,
+    "dateOfBirth": "22 Mar 1994",
+    "gender": "Female",
+    "maritalStatus": "Divorced",
+    "wantKids": "Yes",
+    "about": "Finance geek, loves trekking.",
+    "contact": {
+      "email": "deepa.s@example.com",
+      "phone": "+91 9876543258"
+    },
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'3\" / 160 cm",
+      "openToPets": "Maybe"
+    },
+    "culturalBackground": {
+      "religion": "Jain",
+      "caste": "Jain",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Gujarati",
+      "languages": [
+        "Gujarati",
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Mumbai",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "NMIMS",
+      "degree": "BBA",
+      "pgDegree": "MBA",
+      "company": "Morgan Stanley",
+      "designation": "VP",
+      "income": "₹45 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Jain",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Sister",
+      "familyType": "Affluent",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "Match Sent",
+      "stageBg": "#EDE9FE",
+      "stageColor": "#5B21B6",
+      "addedDate": "10 Mar 2026",
+      "lastActivity": "2026-06-03T09:10:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1059",
+    "firstName": "Divya",
+    "lastName": "Mehta",
+    "fullName": "Divya Mehta",
+    "age": 28,
+    "dateOfBirth": "18 Jun 1997",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "No",
+    "about": "Creative, enjoys pottery and arts.",
+    "contact": {
+      "email": "divya.m@example.com",
+      "phone": "+91 9876543259"
+    },
+    "location": {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'6\" / 168 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Tamil",
+      "languages": [
+        "Tamil",
+        "English",
+        "Hindi"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Chennai",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "NIFT",
+      "degree": "B.Des",
+      "pgDegree": "None",
+      "company": "FabIndia",
+      "designation": "Designer",
+      "income": "₹16 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "Profile Review",
+      "stageBg": "#FEF3C7",
+      "stageColor": "#92400E",
+      "addedDate": "15 Mar 2026",
+      "lastActivity": "2026-06-04T14:45:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1060",
+    "firstName": "Ekta",
+    "lastName": "Joshi",
+    "fullName": "Ekta Joshi",
+    "age": 24,
+    "dateOfBirth": "05 Sep 2001",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Spontaneous and loves dancing.",
+    "contact": {
+      "email": "ekta.j@example.com",
+      "phone": "+91 9876543260"
+    },
+    "location": {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'4\" / 163 cm",
+      "openToPets": "Maybe"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Jaipur",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Manipal Jaipur",
+      "degree": "BCA",
+      "pgDegree": "MCA",
+      "company": "Infosys",
+      "designation": "System Engineer",
+      "income": "₹7 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "2 Brothers",
+      "familyType": "Middle Class",
+      "familyValues": "Traditional",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "Shortlisted",
+      "stageBg": "#DBEAFE",
+      "stageColor": "#1E40AF",
+      "addedDate": "20 Mar 2026",
+      "lastActivity": "2026-06-04T08:30:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 2 years",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1061",
+    "firstName": "Gauri",
+    "lastName": "Kapoor",
+    "fullName": "Gauri Kapoor",
+    "age": 30,
+    "dateOfBirth": "11 Jan 1996",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Maybe",
+    "about": "Food blogger and HR professional.",
+    "contact": {
+      "email": "gauri.k@example.com",
+      "phone": "+91 9876543261"
+    },
+    "location": {
+      "city": "Delhi",
+      "state": "Delhi",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'5\" / 165 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Khatri",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "Punjabi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Delhi",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Delhi University",
+      "degree": "B.Com",
+      "pgDegree": "MBA",
+      "company": "Nestle",
+      "designation": "HR Manager",
+      "income": "₹25 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "Profile Review",
+      "stageBg": "#FEF3C7",
+      "stageColor": "#92400E",
+      "addedDate": "25 Mar 2026",
+      "lastActivity": "2026-06-02T16:20:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1062",
+    "firstName": "Geeta",
+    "lastName": "Malhotra",
+    "fullName": "Geeta Malhotra",
+    "age": 29,
+    "dateOfBirth": "27 Apr 1997",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Down to earth and values family.",
+    "contact": {
+      "email": "geeta.m@example.com",
+      "phone": "+91 9876543262"
+    },
+    "location": {
+      "city": "Chandigarh",
+      "state": "Punjab",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'7\" / 170 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Khatri",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Punjabi",
+      "languages": [
+        "Punjabi",
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Chandigarh",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Panjab University",
+      "degree": "B.Sc",
+      "pgDegree": "M.Sc",
+      "company": "Govt School",
+      "designation": "Teacher",
+      "income": "₹8 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Sister",
+      "familyType": "Middle Class",
+      "familyValues": "Traditional",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "New Lead",
+      "stageBg": "#FEE2E2",
+      "stageColor": "#991B1B",
+      "addedDate": "01 Apr 2026",
+      "lastActivity": "2026-06-04T13:10:00Z",
+      "verified": false,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1063",
+    "firstName": "Hina",
+    "lastName": "Agarwal",
+    "fullName": "Hina Agarwal",
+    "age": 27,
+    "dateOfBirth": "15 Oct 1998",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Loves photography and fashion.",
+    "contact": {
+      "email": "hina.a@example.com",
+      "phone": "+91 9876543263"
+    },
+    "location": {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'2\" / 157 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Agarwal",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English",
+        "Bengali"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Kolkata",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Bhawanipur College",
+      "degree": "BBA",
+      "pgDegree": "None",
+      "company": "Myntra",
+      "designation": "Category Manager",
+      "income": "₹18 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Brother",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "New Lead",
+      "stageBg": "#FEE2E2",
+      "stageColor": "#991B1B",
+      "addedDate": "05 Apr 2026",
+      "lastActivity": "2026-06-03T10:45:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1064",
+    "firstName": "Isha",
+    "lastName": "Reddy",
+    "fullName": "Isha Reddy",
+    "age": 26,
+    "dateOfBirth": "09 Jul 1999",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Maybe",
+    "about": "Introverted but loves deep conversations.",
+    "contact": {
+      "email": "isha.r@example.com",
+      "phone": "+91 9876543264"
+    },
+    "location": {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'5\" / 165 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Reddy",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Telugu",
+      "languages": [
+        "Telugu",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Hyderabad",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "BITS Hyderabad",
+      "degree": "B.E.",
+      "pgDegree": "None",
+      "company": "Microsoft",
+      "designation": "Software Engineer",
+      "income": "₹28 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "Match Sent",
+      "stageBg": "#EDE9FE",
+      "stageColor": "#5B21B6",
+      "addedDate": "10 Apr 2026",
+      "lastActivity": "2026-06-04T15:30:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1065",
+    "firstName": "Jaya",
+    "lastName": "Rao",
+    "fullName": "Jaya Rao",
+    "age": 31,
+    "dateOfBirth": "24 Nov 1994",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Fitness instructor and marathon runner.",
+    "contact": {
+      "email": "jaya.rao@example.com",
+      "phone": "+91 9876543265"
+    },
+    "location": {
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'4\" / 163 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Kannada",
+      "languages": [
+        "Kannada",
+        "English",
+        "Hindi"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Bangalore",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Mount Carmel",
+      "degree": "B.Com",
+      "pgDegree": "None",
+      "company": "Cult.fit",
+      "designation": "Master Trainer",
+      "income": "₹15 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Sister",
+      "familyType": "Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "In Conversation",
+      "stageBg": "#E0F2FE",
+      "stageColor": "#0369A1",
+      "addedDate": "15 Apr 2026",
+      "lastActivity": "2026-06-01T12:00:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1066",
+    "firstName": "Jyoti",
+    "lastName": "Iyer",
+    "fullName": "Jyoti Iyer",
+    "age": 28,
+    "dateOfBirth": "03 Mar 1998",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Classical singer and devout.",
+    "contact": {
+      "email": "jyoti.iyer@example.com",
+      "phone": "+91 9876543266"
+    },
+    "location": {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'3\" / 160 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Iyer",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Tamil",
+      "languages": [
+        "Tamil",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Chennai",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Stella Maris",
+      "degree": "B.Sc",
+      "pgDegree": "M.Sc",
+      "company": "TCS",
+      "designation": "Data Analyst",
+      "income": "₹12 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "2 Brothers",
+      "familyType": "Middle Class",
+      "familyValues": "Traditional",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "Profile Review",
+      "stageBg": "#FEF3C7",
+      "stageColor": "#92400E",
+      "addedDate": "20 Apr 2026",
+      "lastActivity": "2026-06-04T09:00:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1067",
+    "firstName": "Kajal",
+    "lastName": "Nair",
+    "fullName": "Kajal Nair",
+    "age": 25,
+    "dateOfBirth": "16 Aug 2000",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Maybe",
+    "about": "Loves baking and cozy weekends.",
+    "contact": {
+      "email": "kajal.n@example.com",
+      "phone": "+91 9876543267"
+    },
+    "location": {
+      "city": "Kochi",
+      "state": "Kerala",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'5\" / 165 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Nair",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Malayalam",
+      "languages": [
+        "Malayalam",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Kochi",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "CUSAT",
+      "degree": "B.Tech",
+      "pgDegree": "None",
+      "company": "Wipro",
+      "designation": "Developer",
+      "income": "₹9 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Middle Class",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "In Conversation",
+      "stageBg": "#E0F2FE",
+      "stageColor": "#0369A1",
+      "addedDate": "25 Apr 2026",
+      "lastActivity": "2026-06-03T14:20:00Z",
+      "verified": false,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1068",
+    "firstName": "Kavita",
+    "lastName": "Menon",
+    "fullName": "Kavita Menon",
+    "age": 33,
+    "dateOfBirth": "29 May 1992",
+    "gender": "Female",
+    "maritalStatus": "Divorced",
+    "wantKids": "No",
+    "about": "Journalist, well traveled.",
+    "contact": {
+      "email": "kavita.m@example.com",
+      "phone": "+91 9876543268"
+    },
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'6\" / 168 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Menon",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Malayalam",
+      "languages": [
+        "Malayalam",
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Mumbai",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "St. Xavier's",
+      "degree": "BA",
+      "pgDegree": "MA Journalism",
+      "company": "NDTV",
+      "designation": "Senior Anchor",
+      "income": "₹35 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Sister",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "Active Search",
+      "stageBg": "#DCFCE7",
+      "stageColor": "#166534",
+      "addedDate": "28 Apr 2026",
+      "lastActivity": "2026-06-04T17:15:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1069",
+    "firstName": "Kiran",
+    "lastName": "Pillai",
+    "fullName": "Kiran Pillai",
+    "age": 29,
+    "dateOfBirth": "07 Feb 1997",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Tech lead, enjoys painting.",
+    "contact": {
+      "email": "kiran.p@example.com",
+      "phone": "+91 9876543269"
+    },
+    "location": {
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'7\" / 170 cm",
+      "openToPets": "Maybe"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Pillai",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Malayalam",
+      "languages": [
+        "Malayalam",
+        "English",
+        "Kannada"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Bangalore",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "NIT Surathkal",
+      "degree": "B.Tech",
+      "pgDegree": "None",
+      "company": "Intel",
+      "designation": "Hardware Engineer",
+      "income": "₹30 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "Matched",
+      "stageBg": "#F3E8FF",
+      "stageColor": "#6B21A8",
+      "addedDate": "02 May 2026",
+      "lastActivity": "2026-06-04T10:30:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1070",
+    "firstName": "Komal",
+    "lastName": "Das",
+    "fullName": "Komal Das",
+    "age": 26,
+    "dateOfBirth": "12 Oct 1999",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Sweet, family-oriented.",
+    "contact": {
+      "email": "komal.d@example.com",
+      "phone": "+91 9876543270"
+    },
+    "location": {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'4\" / 163 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Kayastha",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Bengali",
+      "languages": [
+        "Bengali",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Kolkata",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Loreto College",
+      "degree": "B.A.",
+      "pgDegree": "B.Ed",
+      "company": "DPS",
+      "designation": "Teacher",
+      "income": "₹6 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Brother",
+      "familyType": "Middle Class",
+      "familyValues": "Traditional",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "Profile Review",
+      "stageBg": "#FEF3C7",
+      "stageColor": "#92400E",
+      "addedDate": "05 May 2026",
+      "lastActivity": "2026-06-02T13:40:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1071",
+    "firstName": "Lata",
+    "lastName": "Bose",
+    "fullName": "Lata Bose",
+    "age": 28,
+    "dateOfBirth": "20 Jan 1998",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Maybe",
+    "about": "Aspiring singer and event manager.",
+    "contact": {
+      "email": "lata.b@example.com",
+      "phone": "+91 9876543271"
+    },
+    "location": {
+      "city": "Delhi",
+      "state": "Delhi",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'5\" / 165 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Kayastha",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Bengali",
+      "languages": [
+        "Bengali",
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Delhi",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Gargi College",
+      "degree": "B.Com",
+      "pgDegree": "None",
+      "company": "Wizcraft",
+      "designation": "Event Coordinator",
+      "income": "₹12 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Middle Class",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "New Lead",
+      "stageBg": "#FEE2E2",
+      "stageColor": "#991B1B",
+      "addedDate": "08 May 2026",
+      "lastActivity": "2026-06-04T09:15:00Z",
+      "verified": false,
+      "timelineToMarry": "Within 2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1072",
+    "firstName": "Madhu",
+    "lastName": "Dutta",
+    "fullName": "Madhu Dutta",
+    "age": 30,
+    "dateOfBirth": "14 Dec 1995",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Investment banker, loves fine dining.",
+    "contact": {
+      "email": "madhu.d@example.com",
+      "phone": "+91 9876543272"
+    },
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'3\" / 160 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Bengali",
+      "languages": [
+        "Bengali",
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Mumbai",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Jai Hind College",
+      "degree": "B.Com",
+      "pgDegree": "CA",
+      "company": "Goldman Sachs",
+      "designation": "Associate",
+      "income": "₹38 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Sister",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "Matched",
+      "stageBg": "#F3E8FF",
+      "stageColor": "#6B21A8",
+      "addedDate": "10 May 2026",
+      "lastActivity": "2026-06-03T11:50:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1073",
+    "firstName": "Mala",
+    "lastName": "Banerjee",
+    "fullName": "Mala Banerjee",
+    "age": 27,
+    "dateOfBirth": "06 Jun 1998",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Maybe",
+    "about": "Software dev, weekend hiker.",
+    "contact": {
+      "email": "mala.b@example.com",
+      "phone": "+91 9876543273"
+    },
+    "location": {
+      "city": "Pune",
+      "state": "Maharashtra",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'6\" / 168 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Bengali",
+      "languages": [
+        "Bengali",
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Pune",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Symbiosis",
+      "degree": "BCA",
+      "pgDegree": "MCA",
+      "company": "IBM",
+      "designation": "Developer",
+      "income": "₹14 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Middle Class",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "Shortlisted",
+      "stageBg": "#DBEAFE",
+      "stageColor": "#1E40AF",
+      "addedDate": "12 May 2026",
+      "lastActivity": "2026-06-04T14:30:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1074",
+    "firstName": "Mamta",
+    "lastName": "Mukherjee",
+    "fullName": "Mamta Mukherjee",
+    "age": 34,
+    "dateOfBirth": "19 Sep 1991",
+    "gender": "Female",
+    "maritalStatus": "Widowed",
+    "wantKids": "Yes",
+    "about": "Doctor, compassionate and kind.",
+    "contact": {
+      "email": "mamta.m@example.com",
+      "phone": "+91 9876543274"
+    },
+    "location": {
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "relocationFlexibility": "Open to tier-1 metro cities"
+    },
+    "physicalAttributes": {
+      "height": "5'4\" / 163 cm",
+      "openToPets": "Maybe"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": "Kulin",
+      "gotra": "Sandilya",
+      "motherTongue": "Bengali",
+      "languages": [
+        "Bengali",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Kolkata",
+      "timeOfBirth": "08:45 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Medical College Kolkata",
+      "degree": "MBBS",
+      "pgDegree": "MD",
+      "company": "Apollo Hospitals",
+      "designation": "Pediatrician",
+      "income": "₹45 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Brother",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "Matched",
+      "stageBg": "#F3E8FF",
+      "stageColor": "#6B21A8",
+      "addedDate": "15 May 2026",
+      "lastActivity": "2026-06-04T16:10:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1075",
+    "firstName": "Manisha",
+    "lastName": "Sen",
+    "fullName": "Manisha Sen",
+    "age": 26,
+    "dateOfBirth": "22 Feb 2000",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "No",
+    "about": "Graphic designer, highly creative.",
+    "contact": {
+      "email": "manisha.s@example.com",
+      "phone": "+91 9876543275"
+    },
+    "location": {
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'5\" / 165 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Baidya",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Bengali",
+      "languages": [
+        "Bengali",
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Bangalore",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Srishti",
+      "degree": "B.Des",
+      "pgDegree": "None",
+      "company": "Ogilvy",
+      "designation": "Art Director",
+      "income": "₹15 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "2 Sisters",
+      "familyType": "Middle Class",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "Active Search",
+      "stageBg": "#DCFCE7",
+      "stageColor": "#166534",
+      "addedDate": "18 May 2026",
+      "lastActivity": "2026-06-02T17:00:00Z",
+      "verified": false,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1076",
+    "firstName": "Meena",
+    "lastName": "Roy",
+    "fullName": "Meena Roy",
+    "age": 30,
+    "dateOfBirth": "09 Nov 1995",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Lawyer, passionate about justice.",
+    "contact": {
+      "email": "meena.r@example.com",
+      "phone": "+91 9876543276"
+    },
+    "location": {
+      "city": "Delhi",
+      "state": "Delhi",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'6\" / 168 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Kayastha",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Delhi",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "NLU Delhi",
+      "degree": "BA LLB",
+      "pgDegree": "LLM",
+      "company": "Supreme Court",
+      "designation": "Advocate",
+      "income": "₹30 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "In Conversation",
+      "stageBg": "#E0F2FE",
+      "stageColor": "#0369A1",
+      "addedDate": "20 May 2026",
+      "lastActivity": "2026-06-04T10:20:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1077",
+    "firstName": "Meera",
+    "lastName": "Choudhury",
+    "fullName": "Meera Choudhury",
+    "age": 28,
+    "dateOfBirth": "15 Mar 1998",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Maybe",
+    "about": "Loves nature and simple living.",
+    "contact": {
+      "email": "meera.c@example.com",
+      "phone": "+91 9876543277"
+    },
+    "location": {
+      "city": "Guwahati",
+      "state": "Assam",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'3\" / 160 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Kalita",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Assamese",
+      "languages": [
+        "Assamese",
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Guwahati",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Cotton University",
+      "degree": "B.A.",
+      "pgDegree": "M.A.",
+      "company": "Govt of Assam",
+      "designation": "Officer",
+      "income": "₹10 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Brother",
+      "familyType": "Middle Class",
+      "familyValues": "Traditional",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "Profile Review",
+      "stageBg": "#FEF3C7",
+      "stageColor": "#92400E",
+      "addedDate": "22 May 2026",
+      "lastActivity": "2026-06-03T12:15:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1078",
+    "firstName": "Monika",
+    "lastName": "Chauhan",
+    "fullName": "Monika Chauhan",
+    "age": 29,
+    "dateOfBirth": "30 May 1997",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Independent and caring.",
+    "contact": {
+      "email": "monika.c@example.com",
+      "phone": "+91 9876543278"
+    },
+    "location": {
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'5\" / 165 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Rajput",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Gujarati",
+      "languages": [
+        "Gujarati",
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Ahmedabad",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "MICA",
+      "degree": "BBA",
+      "pgDegree": "PGDM",
+      "company": "Adani Group",
+      "designation": "Marketing Lead",
+      "income": "₹28 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Sister",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "Match Sent",
+      "stageBg": "#EDE9FE",
+      "stageColor": "#5B21B6",
+      "addedDate": "25 May 2026",
+      "lastActivity": "2026-06-04T09:45:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1079",
+    "firstName": "Namrata",
+    "lastName": "Rajput",
+    "fullName": "Namrata Rajput",
+    "age": 25,
+    "dateOfBirth": "12 Aug 2000",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Maybe",
+    "about": "Enjoys cooking and trying new recipes.",
+    "contact": {
+      "email": "namrata.r@example.com",
+      "phone": "+91 9876543279"
+    },
+    "location": {
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'7\" / 170 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Rajput",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Jaipur",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Banasthali Vidyapith",
+      "degree": "B.Sc",
+      "pgDegree": "None",
+      "company": "TCS",
+      "designation": "Tester",
+      "income": "₹8 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Middle Class",
+      "familyValues": "Traditional",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "In Conversation",
+      "stageBg": "#E0F2FE",
+      "stageColor": "#0369A1",
+      "addedDate": "26 May 2026",
+      "lastActivity": "2026-06-01T11:10:00Z",
+      "verified": false,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1080",
+    "firstName": "Neha",
+    "lastName": "Yadav",
+    "fullName": "Neha Yadav",
+    "age": 28,
+    "dateOfBirth": "18 Jan 1998",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Aspirant, highly dedicated.",
+    "contact": {
+      "email": "neha.y@example.com",
+      "phone": "+91 9876543280"
+    },
+    "location": {
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'4\" / 163 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Yadav",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Lucknow",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Lucknow University",
+      "degree": "BA",
+      "pgDegree": "MA",
+      "company": "None",
+      "designation": "Civil Services Aspirant",
+      "income": "₹0 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "2 Brothers",
+      "familyType": "Middle Class",
+      "familyValues": "Traditional",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "In Conversation",
+      "stageBg": "#E0F2FE",
+      "stageColor": "#0369A1",
+      "addedDate": "27 May 2026",
+      "lastActivity": "2026-06-04T15:30:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 2 years",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1081",
+    "firstName": "Nidhi",
+    "lastName": "Thakur",
+    "fullName": "Nidhi Thakur",
+    "age": 30,
+    "dateOfBirth": "22 Feb 1996",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "HR professional, loves reading.",
+    "contact": {
+      "email": "nidhi.t@example.com",
+      "phone": "+91 9876543281"
+    },
+    "location": {
+      "city": "Bhopal",
+      "state": "Madhya Pradesh",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'6\" / 168 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Rajput",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Bhopal",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Barkatullah University",
+      "degree": "BBA",
+      "pgDegree": "MBA",
+      "company": "BHEL",
+      "designation": "HR Exec",
+      "income": "₹12 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Sister",
+      "familyType": "Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "Shortlisted",
+      "stageBg": "#DBEAFE",
+      "stageColor": "#1E40AF",
+      "addedDate": "28 May 2026",
+      "lastActivity": "2026-06-03T10:20:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1082",
+    "firstName": "Nisha",
+    "lastName": "Jain",
+    "fullName": "Nisha Jain",
+    "age": 27,
+    "dateOfBirth": "05 Oct 1998",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Maybe",
+    "about": "Vegan, animal rights activist.",
+    "contact": {
+      "email": "nisha.j@example.com",
+      "phone": "+91 9876543282"
+    },
+    "location": {
+      "city": "Indore",
+      "state": "Madhya Pradesh",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'3\" / 160 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Jain",
+      "caste": "Jain",
+      "subCaste": "Shwetambar",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Indore",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Symbiosis",
+      "degree": "BA",
+      "pgDegree": "None",
+      "company": "NGO",
+      "designation": "Project Coordinator",
+      "income": "₹6 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Jain",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Middle Class",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "Active Search",
+      "stageBg": "#DCFCE7",
+      "stageColor": "#166534",
+      "addedDate": "29 May 2026",
+      "lastActivity": "2026-06-04T12:45:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 2 years",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1083",
+    "firstName": "Pallavi",
+    "lastName": "Bhatia",
+    "fullName": "Pallavi Bhatia",
+    "age": 32,
+    "dateOfBirth": "14 Apr 1994",
+    "gender": "Female",
+    "maritalStatus": "Divorced",
+    "wantKids": "No",
+    "about": "Passionate about her startup.",
+    "contact": {
+      "email": "pallavi.b@example.com",
+      "phone": "+91 9876543283"
+    },
+    "location": {
+      "city": "Delhi",
+      "state": "Delhi",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'6\" / 168 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Khatri",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "Punjabi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Delhi",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Delhi Tech University",
+      "degree": "B.Tech",
+      "pgDegree": "MBA",
+      "company": "Self Employed",
+      "designation": "Founder",
+      "income": "₹40 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Brother",
+      "familyType": "Affluent",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "Active Search",
+      "stageBg": "#DCFCE7",
+      "stageColor": "#166534",
+      "addedDate": "30 May 2026",
+      "lastActivity": "2026-06-01T16:50:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1084",
+    "firstName": "Pooja",
+    "lastName": "Chawla",
+    "fullName": "Pooja Chawla",
+    "age": 28,
+    "dateOfBirth": "19 Nov 1997",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Fashion designer, bubbly personality.",
+    "contact": {
+      "email": "pooja.c@example.com",
+      "phone": "+91 9876543284"
+    },
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'4\" / 163 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Arora",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Mumbai",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "NIFT Mumbai",
+      "degree": "B.Des",
+      "pgDegree": "None",
+      "company": "House of Anita Dongre",
+      "designation": "Designer",
+      "income": "₹15 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Sister",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "In Conversation",
+      "stageBg": "#E0F2FE",
+      "stageColor": "#0369A1",
+      "addedDate": "31 May 2026",
+      "lastActivity": "2026-06-04T09:10:00Z",
+      "verified": false,
+      "timelineToMarry": "Within 2 years",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1085",
+    "firstName": "Poonam",
+    "lastName": "Ahuja",
+    "fullName": "Poonam Ahuja",
+    "age": 26,
+    "dateOfBirth": "28 Jul 1999",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Maybe",
+    "about": "Loves cooking and family gatherings.",
+    "contact": {
+      "email": "poonam.a@example.com",
+      "phone": "+91 9876543285"
+    },
+    "location": {
+      "city": "Chandigarh",
+      "state": "Punjab",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'5\" / 165 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Arora",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Punjabi",
+      "languages": [
+        "Punjabi",
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Chandigarh",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "MCM DAV",
+      "degree": "B.Com",
+      "pgDegree": "M.Com",
+      "company": "HDFC",
+      "designation": "Clerk",
+      "income": "₹6 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Middle Class",
+      "familyValues": "Traditional",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "Inactive",
+      "stageBg": "#F1F5F9",
+      "stageColor": "#475569",
+      "addedDate": "01 Jun 2026",
+      "lastActivity": "2026-06-03T14:40:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1086",
+    "firstName": "Preeti",
+    "lastName": "Khanna",
+    "fullName": "Preeti Khanna",
+    "age": 30,
+    "dateOfBirth": "04 Mar 1996",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Yoga instructor, spiritual.",
+    "contact": {
+      "email": "preeti.k@example.com",
+      "phone": "+91 9876543286"
+    },
+    "location": {
+      "city": "Delhi",
+      "state": "Delhi",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'6\" / 168 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Khatri",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Delhi",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Miranda House",
+      "degree": "BA",
+      "pgDegree": "None",
+      "company": "Freelance",
+      "designation": "Yoga Teacher",
+      "income": "₹10 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Brother",
+      "familyType": "Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Open to both"
+    },
+    "platformMetadata": {
+      "stage": "New Lead",
+      "stageBg": "#FEE2E2",
+      "stageColor": "#991B1B",
+      "addedDate": "02 Jun 2026",
+      "lastActivity": "2026-06-04T17:20:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1087",
+    "firstName": "Priya",
+    "lastName": "Chopra",
+    "fullName": "Priya Chopra",
+    "age": 31,
+    "dateOfBirth": "26 Aug 1994",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Maybe",
+    "about": "Marketing pro, loves beaches.",
+    "contact": {
+      "email": "priya.c@example.com",
+      "phone": "+91 9876543287"
+    },
+    "location": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'7\" / 170 cm",
+      "openToPets": "Yes"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Khatri",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": false,
+      "placeOfBirth": "Mumbai",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "Jai Hind College",
+      "degree": "BMM",
+      "pgDegree": "MBA",
+      "company": "Ogilvy",
+      "designation": "Account Director",
+      "income": "₹32 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Non-Veg",
+      "drinkingHabits": "Socially",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "None",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Liberal",
+      "livingArrangementPreference": "Nuclear family post-marriage"
+    },
+    "platformMetadata": {
+      "stage": "Active Search",
+      "stageBg": "#DCFCE7",
+      "stageColor": "#166534",
+      "addedDate": "02 Jun 2026",
+      "lastActivity": "2026-06-04T10:30:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1088",
+    "firstName": "Priyanka",
+    "lastName": "Tiwari",
+    "fullName": "Priyanka Tiwari",
+    "age": 28,
+    "dateOfBirth": "13 Dec 1997",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Teacher, simple and traditional.",
+    "contact": {
+      "email": "priyanka.t@example.com",
+      "phone": "+91 9876543288"
+    },
+    "location": {
+      "city": "Varanasi",
+      "state": "Uttar Pradesh",
+      "relocationFlexibility": "Prefers Uttar Pradesh"
+    },
+    "physicalAttributes": {
+      "height": "5'4\" / 163 cm",
+      "openToPets": "No"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Varanasi",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "BHU",
+      "degree": "B.Ed",
+      "pgDegree": "M.Ed",
+      "company": "Kendriya Vidyalaya",
+      "designation": "PGT Teacher",
+      "income": "₹9 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "2 Sisters",
+      "familyType": "Middle Class",
+      "familyValues": "Traditional",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "In Conversation",
+      "stageBg": "#E0F2FE",
+      "stageColor": "#0369A1",
+      "addedDate": "03 Jun 2026",
+      "lastActivity": "2026-06-03T11:10:00Z",
+      "verified": false,
+      "timelineToMarry": "Within 1 year",
+      "assignedTo": {
+        "id": 2,
+        "name": "Sandip Diyora"
+      }
+    }
+  },
+  {
+    "id": "TDC-1089",
+    "firstName": "Rachna",
+    "lastName": "Mishra",
+    "fullName": "Rachna Mishra",
+    "age": 29,
+    "dateOfBirth": "21 Feb 1997",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "CA, highly ambitious.",
+    "contact": {
+      "email": "rachna.m@example.com",
+      "phone": "+91 9876543289"
+    },
+    "location": {
+      "city": "Kanpur",
+      "state": "Uttar Pradesh",
+      "relocationFlexibility": "Flexible across India"
+    },
+    "physicalAttributes": {
+      "height": "5'5\" / 165 cm",
+      "openToPets": "Maybe"
+    },
+    "culturalBackground": {
+      "religion": "Hindu",
+      "caste": "Brahmin",
+      "subCaste": "Not Specified",
+      "gotra": "Not Specified",
+      "motherTongue": "Hindi",
+      "languages": [
+        "Hindi",
+        "English"
+      ]
+    },
+    "astrology": {
+      "manglikStatus": "No",
+      "horoscopeMatchingRequired": true,
+      "placeOfBirth": "Kanpur",
+      "timeOfBirth": "10:30 AM"
+    },
+    "educationAndCareer": {
+      "ugCollege": "CSJM University",
+      "degree": "B.Com",
+      "pgDegree": "CA",
+      "company": "PwC",
+      "designation": "Senior Associate",
+      "income": "₹20 LPA",
+      "workingPostMarriage": "Yes"
+    },
+    "lifestyleAndHabits": {
+      "diet": "Pure Veg",
+      "drinkingHabits": "No",
+      "smokingHabits": "No"
+    },
+    "familyDetails": {
+      "siblings": "1 Brother",
+      "familyType": "Upper Middle Class",
+      "familyValues": "Moderate",
+      "livingArrangementPreference": "Joint Family"
+    },
+    "platformMetadata": {
+      "stage": "New Lead",
+      "stageBg": "#FEE2E2",
+      "stageColor": "#991B1B",
+      "addedDate": "03 Jun 2026",
+      "lastActivity": "2026-06-04T13:00:00Z",
+      "verified": true,
+      "timelineToMarry": "Within 1-2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
+  }
+]

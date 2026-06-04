@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "email": "admin1@test.com",
+        "password": "testpassword1",
+        "name": "Taksh Diyora",
+        "initials": "TD",
+        "designation": "Senior Matchmaker"
+
+    },
+    {
+        "id": 2,
+        "email": "admin2@test.com",
+        "password": "testpassword2",
+        "name": "Sandip Diyora",
+        "initials": "SD",
+        "designation": "Matchmaker"
+    }
+]
