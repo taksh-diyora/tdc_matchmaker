@@ -278,7 +278,8 @@ export const getClientMatches = (req, res) => {
                     reasons
                 };
             })
-            .sort((a, b) => b.matchScore.totalScore - a.matchScore.totalScore);
+            .sort((a, b) => b.matchScore.totalScore - a.matchScore.totalScore)
+            .slice(0, 5);
 
         return res.status(200).json({
             success:true,
