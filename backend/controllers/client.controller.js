@@ -1,4 +1,5 @@
 import {read, write} from "../utils/fileDB.js";
+import {calculateMatchScore, getTopReasons} from "../utils/matchAlgorithm.js";
 
 export const getMyClients = (req, res) => {
     try{
@@ -239,3 +240,121 @@ export const getClientNotes = (req, res) => {
         });
     }
 }
+
+export const getClientMatches = (req, res) => {
+    try{
+        const {id} = req.params;
+        const clients = read("./data/clients.json");
+
+        const primaryClient = clients.find(
+            client => client.id === id
+        );
+
+        if(!primaryClient){
+            return res.status(404).json({
+                message:"Client not found.",
+                success: false,
+            });
+        }
+
+        const matches = clients
+            .filter(client => client.gender !== primaryClient.gender)
+            .map(candidate => {
+
+                const matchScore =
+                    calculateMatchScore(
+                        primaryClient,
+                        candidate
+                    );
+
+                const reasons =
+                    getTopReasons(
+                        matchScore.breakdown
+                    );
+
+                return {
+                    ...candidate,
+                    matchScore,
+                    reasons
+                };
+            })
+            .sort((a, b) => b.matchScore.totalScore - a.matchScore.totalScore);
+
+        return res.status(200).json({
+            success:true,
+            count: matches.length,
+            primaryClient: {
+                id: primaryClient.id,
+                name: primaryClient.fullName,
+                gender: primaryClient.gender
+            },
+            matches: matches
+        });
+
+    }catch(error){
+        console.log(error);
+        
+        return res.status(500).json({
+            message:"Internal Server Error.",
+            success:false
+        });
+    }
+}
+
+export const revealContactInfo = (req, res) => {
+    try {
+
+        const { id } = req.params;
+
+        const clients = read("./data/clients.json");
+
+        const client = clients.find(
+            client => client.id === id
+        );
+
+        if (!client) {
+            return res.status(404).json({
+                success: false,
+                message: "Client not found"
+            });
+        }
+
+        const notes = read("./data/notes.json");
+
+        const alreadyRevealed = notes.some(
+            note =>
+                note.clientId === id &&
+                note.type === "Contact Reveal"
+        );
+
+        if(!alreadyRevealed){
+
+            notes.push({
+                id: Date.now(),
+                clientId: id,
+                type: "Contact Reveal",
+                content: "Contact information revealed",
+                createdAt: new Date().toISOString(),
+                matchmakerId: req.userId
+            });
+
+            write("./data/notes.json", notes);
+        }
+
+        return res.status(200).json({
+            success: true,
+            email: client.email,
+            phone: client.phone
+        });
+
+    } catch(error) {
+
+        console.log(error);
+
+        return res.status(500).json({
+            success: false,
+            message: "Internal Server Error"
+        });
+
+    }
+};

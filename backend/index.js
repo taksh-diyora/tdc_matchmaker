@@ -4,6 +4,8 @@ import cookieParser from "cookie-parser";
 import authRouter from "./routes/auth.route.js";
 import clientRouter from "./routes/client.route.js";
 import dashboardRouter from "./routes/dashboard.route.js";
+import aiRouter from "./routes/ai.route.js";
+import matchRouter from "./routes/matches.route.js";
 import dotenv from "dotenv";
 dotenv.config();
 
@@ -26,6 +28,8 @@ const PORT = process.env.PORT || 3000
 app.use("/api/v1/auth", authRouter);
 app.use("/api/v1/clients", clientRouter);
 app.use("/api/v1/dashboard", dashboardRouter);
+app.use("/api/v1/ai", aiRouter);
+app.use("/api/v1/matches", matchRouter);
 
 app.listen(PORT, () => {
     console.log(`Server is running at http://localhost:${PORT}`);

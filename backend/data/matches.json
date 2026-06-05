@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1780659670929,
+    "clientId": "TDC-1081",
+    "matchId": "TDC-1042",
+    "emailSubject": "Potential Match Introduction",
+    "emailBody": "We believe this profile may be a strong match for you.",
+    "status": "Sent",
+    "sentAt": "2026-06-05T11:41:10.929Z",
+    "matchmakerId": 1
+  }
+]
