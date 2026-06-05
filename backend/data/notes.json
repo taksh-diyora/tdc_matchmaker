@@ -17,5 +17,15 @@
     "isPrivate": true,
     "createdAt": "2026-06-04T20:08:26.807Z",
     "matchmakerId": 1
+  },
+  {
+    "id": 1780670109505,
+    "clientId": "TDC-1010",
+    "type": "Stage Update",
+    "oldStage": "In Conversation",
+    "newStage": "Shortlisted",
+    "content": "Client showed strong interest.",
+    "createdAt": "2026-06-05T14:35:09.495Z",
+    "matchmakerId": 1
   }
 ]

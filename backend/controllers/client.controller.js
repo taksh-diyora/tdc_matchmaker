@@ -6,19 +6,89 @@ export const getMyClients = (req, res) => {
         // Getting Matchmaker id from jwt
         const matchmakerId = req.userId;
 
+        const {
+            search,
+            stage,
+            sortBy,
+            page = 1,
+            limit = 12
+        } = req.query;
+
         // Getting clients from clients data
         const clients = read("./data/clients.json");
 
         // filtering out clients that are assigned to Matchmaker with matchmaker id = matchmakerId
-        const assignedClients = clients.filter(
+        let assignedClients = clients.filter(
             client => client.platformMetadata.assignedTo?.id === matchmakerId
         );
 
+        if(search){
+            assignedClients = assignedClients.filter(
+                client => client.fullName
+                    .toLowerCase()
+                    .includes(search.toLowerCase())
+            );
+        }
+
+        if(stage){
+            assignedClients = assignedClients.filter(
+                client => client.platformMetadata.stage === stage
+            );
+        }
+
+        if(sortBy === "lastActivity"){
+            assignedClients.sort(
+                (a, b) =>
+                    new Date(b.platformMetadata.lastActivity) -
+                    new Date(a.platformMetadata.lastActivity)
+            );
+        }
+
+        if(sortBy === "age"){
+            assignedClients.sort(
+                (a, b) => b.age - a.age
+            );
+        }
+
+        if(sortBy === "name"){
+            assignedClients.sort(
+                (a, b) =>
+                    a.fullName.localeCompare(
+                        b.fullName
+                    )
+            );
+        }
+
+        const pageNumber = Number(page);
+        const limitNumber = Number(limit);
+
+        const startIndex =
+            (pageNumber - 1) * limitNumber;
+
+        const paginatedClients =
+            assignedClients.slice(
+                startIndex,
+                startIndex + limitNumber
+            );
+
         // return filtered data
         return res.status(200).json({
-            success:true,
-            count: assignedClients.length,
-            clients: assignedClients
+            success: true,
+
+            totalClients:
+                assignedClients.length,
+
+            currentPage:
+                pageNumber,
+
+            totalPages:
+                Math.ceil(
+                    assignedClients.length /
+                    limitNumber
+                ),
+
+            clients:
+                paginatedClients
         });
     }catch(error){
         console.log(error);
