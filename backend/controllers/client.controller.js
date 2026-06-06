@@ -372,64 +372,6 @@ export const getClientMatches = (req, res) => {
     }
 }
 
-export const revealContactInfo = (req, res) => {
-    try {
-
-        const { id } = req.params;
-
-        const clients = read("./data/clients.json");
-
-        const client = clients.find(
-            client => client.id === id
-        );
-
-        if (!client) {
-            return res.status(404).json({
-                success: false,
-                message: "Client not found"
-            });
-        }
-
-        const notes = read("./data/notes.json");
-
-        const alreadyRevealed = notes.some(
-            note =>
-                note.clientId === id &&
-                note.type === "Contact Reveal"
-        );
-
-        if(!alreadyRevealed){
-
-            notes.push({
-                id: Date.now(),
-                clientId: id,
-                type: "Contact Reveal",
-                content: "Contact information revealed",
-                createdAt: new Date().toISOString(),
-                matchmakerId: req.userId
-            });
-
-            write("./data/notes.json", notes);
-        }
-
-        return res.status(200).json({
-            success: true,
-            email: client.email,
-            phone: client.phone
-        });
-
-    } catch(error) {
-
-        console.log(error);
-
-        return res.status(500).json({
-            success: false,
-            message: "Internal Server Error"
-        });
-
-    }
-};
-
 export const addClient = (req, res) => {
     try{
         

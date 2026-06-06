@@ -1,5 +1,5 @@
 import express from "express";
-import { getClientById, getMyClients, updateClientStage, addNote, getClientNotes, getClientMatches, revealContactInfo, addClient } from "../controllers/client.controller.js";
+import { getClientById, getMyClients, updateClientStage, addNote, getClientNotes, getClientMatches, addClient } from "../controllers/client.controller.js";
 import {sendMatch} from "../controllers/match.controller.js";
 import isAuthenticated from "../middleware/isAuthenticated.js";
 
@@ -13,6 +13,5 @@ router.post("/:id/notes", isAuthenticated, addNote);
 router.get("/:id/notes", isAuthenticated, getClientNotes);
 router.get("/:id/matches", isAuthenticated, getClientMatches);
 router.post("/:id/matches/:matchId/send", isAuthenticated, sendMatch);
-router.get("/:id/contact-reveal", isAuthenticated, revealContactInfo);
 
 export default router;
