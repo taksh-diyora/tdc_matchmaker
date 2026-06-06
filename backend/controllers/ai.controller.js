@@ -64,7 +64,7 @@ INSTRUCTIONS
 8. Do NOT include contact information.
 9. Do NOT ask both parties to contact each other.
 10. Return ONLY the email body.
-11. Length should be approximately 150-250 words.
+11. Length should be approximately 100-120 words.
 
 Generate the email now.
 `;

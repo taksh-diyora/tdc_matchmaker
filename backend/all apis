@@ -1,0 +1,67 @@
+ai/
+generate-intro-email : 
+    takes data of client, match, compatibilityScore, reasons(optional)
+    uses llama-3.3-70b-instruct model to generate email
+    responds with emailSubject and emailBody
+
+auth/
+login:
+    takes email and password as data
+    creates token using jwt and stores in cookie
+    responds with `matchmaker = {
+            id: matchmaker.id,
+            name: matchmaker.name,
+            designation: matchmaker.designation,
+            initials: matchmaker.initials
+        }`
+
+clients/
+add:
+    takes client data
+    adds a new client to clients.json
+    responds with the new client data
+
+/:
+    takes optional query params: search, stage, sortBy, page, limit
+    gets clients assigned to the logged-in matchmaker
+    responds with paginated list of clients
+
+/:id:
+    takes client id
+    gets a client by id
+    responds with the client data
+
+/:id/stage:
+    takes client id and stage
+    updates the stage of a client
+    responds with the updated client data
+
+/:id/notes:
+    (POST) takes client id and note content
+    adds a new note for a client
+    responds with the new note
+
+    (GET) takes client id
+    gets all notes for a client
+    responds with a list of notes
+
+/:id/matches:
+    takes client id
+    gets potential matches for a client
+    responds with a list of matches and compatibility scores
+
+/:id/matches/:matchId/send:
+    takes client id, match id, emailSubject, and emailBody
+    sends a match to a client
+    responds with success message and match record
+
+dashboard/
+stats:
+    gets dashboard statistics for the logged-in matchmaker
+    responds with activeClients, matchesSentThisMonth, currentlyDating, closedMatched
+
+matches/
+history:
+    gets match history for the logged-in matchmaker
+    responds with a list of sent matches
+
