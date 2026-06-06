@@ -8,5 +8,45 @@
     "status": "Sent",
     "sentAt": "2026-06-05T11:41:10.929Z",
     "matchmakerId": 1
+  },
+  {
+    "id": 1780746054386,
+    "clientId": "TDC-1093",
+    "matchId": "TDC-1073",
+    "emailSubject": "Potential Match for Rohan Deshmukh",
+    "emailBody": "Dear Rohan Deshmukh,\n\nI am excited to introduce you to Mala Banerjee, a 27-year-old from Bangalore, who shares similar values and goals. As a homemaker, she complements your supportive nature. With a PhD and an income of ₹8 LPA, she brings financial stability. I selected Mala due to your aligned family planning goals, shared Hindu faith, and strong cultural compatibility. Your geographic proximity also makes this match appealing. With a compatibility score of 75/100, I believe you two could make a great pair. I think you'll find Mala to be a wonderful match, and I look forward to discussing this further with you.",
+    "status": "Sent",
+    "sentAt": "2026-06-06T11:40:54.386Z",
+    "matchmakerId": 1
+  },
+  {
+    "id": 1780746272265,
+    "clientId": "TDC-1097",
+    "matchId": "TDC-1011",
+    "emailSubject": "Potential Match for Ananya Chatterjee",
+    "emailBody": "Dear Ananya Chatterjee,\n\nI am excited to introduce you to Atharva Kapoor, a potential match who shares similar values and goals. Atharva, a 34-year-old Hindu from Delhi, is a supportive partner who encourages his spouse to pursue their career or be a homemaker. With a diploma and an income of ₹40 LPA, he offers financial stability. I selected Atharva due to your aligned family planning goals, shared religious values, and strong cultural compatibility. Your compatibility score is 77/100, indicating a promising match. I believe Atharva could be an ideal partner for you, and I look forward to discussing this further.",
+    "status": "Sent",
+    "sentAt": "2026-06-06T11:44:32.265Z",
+    "matchmakerId": 1
+  },
+  {
+    "id": 1780748369805,
+    "clientId": "TDC-1104",
+    "matchId": "TDC-1032",
+    "emailSubject": "Potential Match for Meera Kulkarni",
+    "emailBody": "Dear Meera Kulkarni,\n\nI am excited to introduce Anil Jain as a potential match for you. Anil, a 27-year-old from Mumbai, shares similar values and goals, including a traditional upbringing and desire to start a family. With a graduate degree and an income of ₹28 LPA, he offers financial stability and supports his partner's career. I selected Anil due to your aligned family planning goals, shared religious values, and compatible educational background. Your compatibility score is 72/100, indicating a strong potential match. I believe Anil's profile aligns well with your preferences and I look forward to discussing this further with you.",
+    "status": "Sent",
+    "sentAt": "2026-06-06T12:19:29.805Z",
+    "matchmakerId": 1
+  },
+  {
+    "id": 1780748391534,
+    "clientId": "TDC-1104",
+    "matchId": "TDC-1032",
+    "emailSubject": "Potential Match for Meera Kulkarni",
+    "emailBody": "Dear Meera Kulkarni,\n\nI am excited to introduce you to Anil Jain, a potential match. Anil is a 27-year-old Hindu graduate from Mumbai, with a comfortable income of ₹28 LPA. He values tradition and is open to having kids. I selected Anil as he shares your goals for family planning, religious values, and educational background, ensuring financial compatibility. With a compatibility score of 72/100, I believe you two could make a great pair. Anil is supportive of his partner's career and is looking for someone like you who wishes to continue working. I think you'll find him to be a suitable match.",
+    "status": "Sent",
+    "sentAt": "2026-06-06T12:19:51.533Z",
+    "matchmakerId": 1
   }
 ]

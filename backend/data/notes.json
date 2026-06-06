@@ -27,5 +27,34 @@
     "content": "Client showed strong interest.",
     "createdAt": "2026-06-05T14:35:09.495Z",
     "matchmakerId": 1
+  },
+  {
+    "id": 1780743097506,
+    "clientId": "TDC-1093",
+    "type": "Stage Update",
+    "oldStage": "Active Search",
+    "newStage": "In Conversation",
+    "content": "Stage changed to In Conversation",
+    "createdAt": "2026-06-06T10:51:37.499Z",
+    "matchmakerId": 1
+  },
+  {
+    "id": 1780747114074,
+    "clientId": "TDC-1001",
+    "type": "General",
+    "content": "About to get promotion in his job",
+    "isPrivate": false,
+    "createdAt": "2026-06-06T11:58:34.074Z",
+    "matchmakerId": 1
+  },
+  {
+    "id": 1780748369816,
+    "clientId": "TDC-1104",
+    "type": "Stage Update",
+    "oldStage": "Active Search",
+    "newStage": "In Conversation",
+    "content": "Auto-transitioned after match proposal sent to TDC-1032",
+    "createdAt": "2026-06-06T12:19:29.805Z",
+    "matchmakerId": 1
   }
 ]

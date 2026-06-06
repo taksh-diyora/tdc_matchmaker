@@ -165,10 +165,22 @@ export const updateClientStage = (req, res) => {
             });
         }
 
+        const STAGE_COLORS = {
+            "Active Search": { bg: "#DCFCE7", color: "#166534" },
+            "Shortlisted":   { bg: "#FEF3C7", color: "#92400E" },
+            "In Conversation": { bg: "#DBEAFE", color: "#1E40AF" },
+            "Matched":       { bg: "#EDE9FE", color: "#5B21B6" },
+            "On Hold":       { bg: "#F3F4F6", color: "#374151" },
+        };
+
         const timestamp = new Date().toISOString();
 
         clients[clientIndex].platformMetadata.stage = stage;
         clients[clientIndex].platformMetadata.lastActivity = timestamp;
+        if (STAGE_COLORS[stage]) {
+            clients[clientIndex].platformMetadata.stageBg = STAGE_COLORS[stage].bg;
+            clients[clientIndex].platformMetadata.stageColor = STAGE_COLORS[stage].color;
+        }
 
         write("./data/clients.json", clients);
 

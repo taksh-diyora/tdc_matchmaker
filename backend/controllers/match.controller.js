@@ -41,6 +41,7 @@ export const sendMatch = (req, res) => {
         }
 
         const matches = read("./data/matches.json");
+        const timestamp = new Date().toISOString();
 
         const matchRecord = {
             id: Date.now(),
@@ -53,19 +54,57 @@ export const sendMatch = (req, res) => {
 
             status: "Sent",
 
-            sentAt: new Date().toISOString(),
+            sentAt: timestamp,
             matchmakerId: req.userId
         };
 
         matches.push(matchRecord);
-
         write("./data/matches.json", matches);
+
+        // Auto-transition stage to "In Conversation" if currently in Active Search or Shortlisted
+        const STAGE_COLORS = {
+            "Active Search": { bg: "#DCFCE7", color: "#166534" },
+            "Shortlisted":   { bg: "#FEF3C7", color: "#92400E" },
+            "In Conversation": { bg: "#DBEAFE", color: "#1E40AF" },
+            "Matched":       { bg: "#EDE9FE", color: "#5B21B6" },
+            "On Hold":       { bg: "#F3F4F6", color: "#374151" },
+        };
+
+        const clientIdx = clients.findIndex(c => c.id === clientId);
+        const currentStage = clients[clientIdx].platformMetadata.stage;
+        let stageChanged = false;
+
+        if (["Active Search", "Shortlisted"].includes(currentStage)) {
+            const oldStage = currentStage;
+            clients[clientIdx].platformMetadata.stage = "In Conversation";
+            clients[clientIdx].platformMetadata.stageBg = STAGE_COLORS["In Conversation"].bg;
+            clients[clientIdx].platformMetadata.stageColor = STAGE_COLORS["In Conversation"].color;
+            clients[clientIdx].platformMetadata.lastActivity = timestamp;
+            write("./data/clients.json", clients);
+
+            // Log the stage change as a note
+            const notes = read("./data/notes.json");
+            notes.push({
+                id: Date.now() + 1,
+                clientId,
+                type: "Stage Update",
+                oldStage,
+                newStage: "In Conversation",
+                content: `Auto-transitioned after match proposal sent to ${matchId}`,
+                createdAt: timestamp,
+                matchmakerId: req.userId
+            });
+            write("./data/notes.json", notes);
+            stageChanged = true;
+        }
 
         return res.status(200).json({
             success:true,
             message:"Match sent successfully",
             sentAt: matchRecord.sentAt,
-            matchRecord
+            matchRecord,
+            stageChanged,
+            newStage: stageChanged ? "In Conversation" : currentStage
         });
     }catch(error){
         console.log(error);
