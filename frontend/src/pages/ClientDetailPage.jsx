@@ -300,7 +300,13 @@ export default function ClientDetailPage() {
                     ) : clientHistory.length === 0 ? (
                       <EmptyState icon={History} title="No match history" description="Matches you send will appear here." />
                     ) : (
-                      clientHistory.map((h, i) => <MatchHistoryItem key={h.id || i} item={h} />)
+                      clientHistory.map((h, i) => (
+                        <MatchHistoryItem
+                          key={h.id || i}
+                          item={h}
+                          onViewProfile={(person) => setViewProfile(person)}
+                        />
+                      ))
                     )}
                   </div>
                 )}

@@ -327,6 +327,7 @@ export const getClientMatches = (req, res) => {
     try{
         const {id} = req.params;
         const clients = read("./data/clients.json");
+        const sentMatches = read("./data/matches.json");
 
         const primaryClient = clients.find(
             client => client.id === id
@@ -339,8 +340,19 @@ export const getClientMatches = (req, res) => {
             });
         }
 
+        // Build a set of matchIds that have already been sent for this client
+        const sentMatchIds = new Set();
+        const sentMatchMap = {};
+        sentMatches.forEach(m => {
+            if (m.clientId === id) {
+                sentMatchIds.add(m.matchId);
+                sentMatchMap[m.matchId] = m.sentAt;
+            }
+        });
+
         const matches = clients
             .filter(client => client.gender !== primaryClient.gender)
+            .filter(client => !sentMatchIds.has(client.id))  // exclude already-sent
             .map(candidate => {
 
                 const matchScore =

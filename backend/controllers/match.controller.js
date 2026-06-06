@@ -1,4 +1,5 @@
 import {read, write} from "../utils/fileDB.js";
+import {calculateMatchScore} from "../utils/matchAlgorithm.js";
 
 export const sendMatch = (req, res) => {
     try{
@@ -121,11 +122,33 @@ export const getMatchHistory = (req, res) => {
         const matchmakerId = req.userId;
 
         const matches = read("./data/matches.json");
+        const clients = read("./data/clients.json");
+
+        // Build a lookup map for client details (full profile minus contact info)
+        const clientMap = {};
+        clients.forEach(c => {
+            const { contact, ...profile } = c;
+            clientMap[c.id] = profile;
+        });
 
         const history = matches
             .filter(
                 match => match.matchmakerId === matchmakerId
             )
+            .map(match => {
+                const clientProfile = clientMap[match.clientId] || null;
+                const matchProfile = clientMap[match.matchId] || null;
+                let matchScore = null;
+                if (clientProfile && matchProfile) {
+                    matchScore = calculateMatchScore(clientProfile, matchProfile);
+                }
+                return {
+                    ...match,
+                    clientDetails: clientProfile,
+                    matchDetails: matchProfile,
+                    matchScore,
+                };
+            })
             .sort(
                 (a, b) =>
                     new Date(b.sentAt) -

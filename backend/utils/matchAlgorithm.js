@@ -1,3 +1,4 @@
+// Importance weights for different criteria, customized for male vs female clients
 const WEIGHTS = {
     religion:           { male: 8,  female: 8 },
     casteOrCommunity:   { male: 7,  female: 7 },
@@ -20,21 +21,23 @@ const WEIGHTS = {
     horoscopeAlignment: { male: 2,  female: 2 }
 };
 
-// Helper to parse numbers from strings like "12 LPA", "50k"
+// Helper utility to parse numerical income from strings like "12 LPA", "50k"
 const parseIncome = (incomeStr) => {
     if (!incomeStr) return 0;
     const match = incomeStr.toString().match(/[\d.]+/);
     return match ? parseFloat(match[0]) : 0;
 };
 
-// Helper to parse height to cm
+// Helper utility to parse height strings to numeric cm
 const parseHeightCm = (heightStr) => {
     if (!heightStr) return 0;
     const match = heightStr.toString().match(/[\d.]+/);
     return match ? parseFloat(match[0]) : 0;
 };
 
+// Individual attribute evaluators. Each returns a multiplier (0.0 to 1.0) and optional dealbreaker key.
 const evaluators = {
+    // Checks religion compatibility, permitting compromise among Dharmic or Secular sets
     religion: (p, c) => {
         const r1 = p.religion?.toLowerCase() || '';
         const r2 = c.religion?.toLowerCase() || '';
@@ -53,6 +56,8 @@ const evaluators = {
         
         return { multiplier: 0.0, dealbreaker: "religion_mismatch" };
     },
+
+    // Evaluates sub-communities, sects, and checks gotra exogamy for Hindu profiles
     casteOrCommunity: (p, c) => {
         if (p.religion !== c.religion) return { multiplier: 0.25 };
         const r = p.religion?.toLowerCase();
@@ -77,12 +82,16 @@ const evaluators = {
         
         return { multiplier: 0.25 };
     },
+
+    // Compares primary language, language family, and fluency compatibility
     motherTongue: (p, c) => {
         if (p.motherTongue === c.motherTongue) return { multiplier: 1.0 };
         if (p.languageFamily === c.languageFamily) return { multiplier: 0.67 };
         if (p.fluentLanguages?.some(l => c.fluentLanguages?.includes(l))) return { multiplier: 0.33 };
         return { multiplier: 0.0 };
     },
+
+    // Checks alignment on desire for children (can trigger kids_mismatch dealbreaker)
     wantKids: (p, c) => {
         const map = { 'Yes': 2, 'Maybe': 1, 'No': 0 };
         const v1 = map[p.wantKids], v2 = map[c.wantKids];
@@ -95,6 +104,8 @@ const evaluators = {
         
         return { multiplier: 0.0, dealbreaker: "kids_mismatch" }; // One Yes, One No
     },
+
+    // Computes proximity in marriage time brackets
     timelineToMarry: (p, c) => {
         const brackets = ["< 6 months", "6-12 months", "1-2 years", "2+ years"];
         const i1 = brackets.indexOf(p.timelineToMarry);
@@ -108,6 +119,8 @@ const evaluators = {
         if (diff === 2) return { multiplier: 0.14 };
         return { multiplier: 0.0 };
     },
+
+    // Matches family values, penalizing strict Traditional vs Liberal clashes
     familyValues: (p, c) => {
         const v1 = p.familyValues, v2 = c.familyValues;
         if (v1 === v2) return { multiplier: 1.0 };
@@ -115,6 +128,7 @@ const evaluators = {
         return { multiplier: 0.6 };
     },
 
+    // Checks compatibility on living arrangements (requires agreement or flexibility)
     livingArrangement: (p, c) => {
         const l1 = p.livingArrangement, l2 = c.livingArrangement;
         if (l1 === l2) return { multiplier: 1.0 };
@@ -122,6 +136,7 @@ const evaluators = {
         return { multiplier: 0.0, dealbreaker: "living_arrangement_conflict" };
     },
 
+    // Checks dietary compatibility based on religion constraints
     diet: (p, c) => {
         const r1 = p.religion?.toLowerCase();
         const r2 = c.religion?.toLowerCase();
@@ -161,6 +176,7 @@ const evaluators = {
         return { multiplier: 0.75 };
     },
 
+    // Compares alcohol consumption preferences
     drinking: (p, c) => {
         const d1 = p.drinking, d2 = c.drinking;
         if (d1 === d2) {
@@ -170,6 +186,7 @@ const evaluators = {
         return { multiplier: 0.5 };
     },
 
+    // Compares tobacco/smoking habits
     smoking: (p, c) => {
         const s1 = p.smoking, s2 = c.smoking;
         if (s1 === 'Non-smoker' && s2 === 'Non-smoker') return { multiplier: 1.0 };
@@ -178,6 +195,7 @@ const evaluators = {
         return { multiplier: 0.25 };
     },
 
+    // Scores age gaps based on gender expectations
     ageGap: (p, c) => {
         const diff = p.age - c.age;
         if (p.gender === 'Male') {
@@ -199,6 +217,7 @@ const evaluators = {
         }
     },
 
+    // Scores height gaps based on gender expectations
     height: (p, c) => {
         const h1 = parseHeightCm(p.heightCm);
         const h2 = parseHeightCm(c.heightCm);
@@ -221,6 +240,7 @@ const evaluators = {
         }
     },
 
+    // Evaluates academic level differences, boosting top tier institutions
     education: (p, c) => {
         const tiers = { "High School": 0, "Diploma": 1, "Graduate": 2, "Postgraduate": 3, "PhD": 4 };
         let t1 = tiers[p.educationTier] ?? 2;
@@ -237,6 +257,7 @@ const evaluators = {
         return { multiplier: 0.0 };
     },
 
+    // Evaluates income compatibility ratios based on gender
     income: (p, c) => {
         const i1 = parseIncome(p.income);
         const i2 = parseIncome(c.income);
@@ -263,6 +284,7 @@ const evaluators = {
         }
     },
 
+    // Compares expectations regarding career status post marriage
     workPostMarriage: (p, c) => {
         const p1 = p.workPostMarriageIntent, c1 = c.workPostMarriageIntent;
         if (p1 === 'Flexible') {
@@ -273,6 +295,7 @@ const evaluators = {
         return { multiplier: 0.0 };
     },
 
+    // Scores geographic proximity by zone, state, and city
     cityRegion: (p, c) => {
         if (p.city === c.city) return { multiplier: 1.0 };
         if (p.metroRegion === c.metroRegion) return { multiplier: 0.8 };
@@ -282,6 +305,7 @@ const evaluators = {
         return { multiplier: 0.0 };
     },
 
+    // Scores relocation flexibility compatibility
     relocation: (p, c) => {
         const r1 = p.openToRelocation, r2 = c.openToRelocation;
         if (r1 && r2) return { multiplier: 1.0 };
@@ -292,6 +316,7 @@ const evaluators = {
         return { multiplier: 0.67 };
     },
 
+    // Scores Manglik astrological status compatibility
     manglik: (p, c) => {
         if (p.horoscopeMatchingRequired) {
             if (p.isManglik === c.isManglik) return { multiplier: 1.0 };
@@ -300,6 +325,7 @@ const evaluators = {
         return p.isManglik === c.isManglik ? { multiplier: 0.5 } : { multiplier: 0.25 };
     },
 
+    // Scores horoscope matching requirements compatibility
     horoscopeAlignment: (p, c) => {
         const h1 = p.horoscopeMatchingRequired, h2 = c.horoscopeMatchingRequired;
         if (h1 && h2) return { multiplier: 1.0 };
@@ -308,6 +334,7 @@ const evaluators = {
     }
 };
 
+// Friendly description strings mapped to each match parameter
 export const REASON_MAP = {
     religion: "Both share similar religious values",
     casteOrCommunity: "Strong cultural compatibility",
@@ -330,6 +357,7 @@ export const REASON_MAP = {
     horoscopeAlignment: "Similar horoscope expectations"
 };
 
+// Main function: computes the overall compatibility score (0-100) between two profiles
 export const calculateMatchScore = (primaryProfile, candidateProfile) => {
     // Determine gender context for both to fetch fair weights
     const pGender = primaryProfile.gender?.toLowerCase() === 'female' ? 'female' : 'male';
@@ -339,7 +367,7 @@ export const calculateMatchScore = (primaryProfile, candidateProfile) => {
     let dealbreakers = [];
     let breakdown = {};
 
-    // Evaluate each of the 19 fields
+    // Evaluate each of the 19 fields defined in WEIGHTS
     for (const fieldName of Object.keys(WEIGHTS)) {
         const wP = WEIGHTS[fieldName][pGender];
         const wC = WEIGHTS[fieldName][cGender];
@@ -359,23 +387,21 @@ export const calculateMatchScore = (primaryProfile, candidateProfile) => {
         let points = 0;
         let effectiveWeight = wP; 
         
-        // New Logic: Check if weights are the same or different
+        // If weights differ by gender, calculate separate scores and take the average
         if (wP === wC) {
-            // Same weight: calculated the same as the original algorithm
             points = multiplier * wP;
         } else {
-            // Different weights: calculate separate scores and take the average
             const scorePrimary = multiplier * wP;
             const scoreCandidate = multiplier * wC;
             points = (scorePrimary + scoreCandidate) / 2;
-            effectiveWeight = (wP + wC) / 2; // Store the averaged weight for the breakdown
+            effectiveWeight = (wP + wC) / 2; 
         }
         
         totalScore += points;
 
         breakdown[fieldName] = {
             multiplier: parseFloat(multiplier.toFixed(2)),
-            weight: effectiveWeight, // Reflects the fair/averaged weight used
+            weight: effectiveWeight, 
             primaryWeight: wP,
             candidateWeight: wC,
             points: parseFloat(points.toFixed(2))
@@ -385,7 +411,7 @@ export const calculateMatchScore = (primaryProfile, candidateProfile) => {
     // Round total score to 1 decimal place
     totalScore = Math.round(totalScore * 10) / 10;
 
-    // Determine Score Label
+    // Determine Score Label based on total computed score
     let scoreLabel = "Poor";
     if (totalScore >= 85) scoreLabel = "Excellent";
     else if (totalScore >= 70) scoreLabel = "Good";
@@ -400,6 +426,7 @@ export const calculateMatchScore = (primaryProfile, candidateProfile) => {
     };
 };
 
+// Returns up to 5 strongest positive matching reasons based on evaluation points
 export const getTopReasons = (breakdown) => {
     return Object.entries(breakdown)
         .filter(([_, value]) => value.points > 0)

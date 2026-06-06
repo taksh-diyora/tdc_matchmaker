@@ -171,6 +171,7 @@ Registers a new client under the currently logged-in matchmaker's roster.
     "varna": "Brahmin",
     "jati": "Saraswat",
     "motherTongue": "Hindi",
+    "languageFamily": "Indo-Aryan",
     "timelineToMarry": "6-12 months",
     "familyValues": "Moderate",
     "livingArrangement": "Nuclear",
@@ -317,6 +318,7 @@ Computes matches for the client and returns the top 5 highest compatibility reco
 * **Method:** `GET`
 * **Path:** `/api/v1/clients/TDC-1001/matches`
 * **Authentication Required:** Yes
+* **Behavior:** Automatically filters out candidates of the same gender and candidates who have already been sent a proposal (i.e., those logged in `matches.json` for this client).
 * **Response:**
   * **Status:** `200 OK`
   ```json
@@ -357,6 +359,7 @@ Submits a match suggestion to the database logs and updates status to "Sent".
 * **Method:** `POST`
 * **Path:** `/api/v1/clients/TDC-1001/matches/TDC-1025/send`
 * **Authentication Required:** Yes
+* **Behavior:** Automatically transitions the client's pipeline stage to "In Conversation" (if currently in "Active Search" or "Shortlisted") and appends a corresponding Stage Update log to the client's notes.
 * **Request Body:**
   ```json
   {
@@ -380,7 +383,9 @@ Submits a match suggestion to the database logs and updates status to "Sent".
       "status": "Sent",
       "sentAt": "2026-06-06T10:58:43.123Z",
       "matchmakerId": 1
-    }
+    },
+    "stageChanged": true,
+    "newStage": "In Conversation"
   }
   ```
   * **Status:** `400 Bad Request` (Missing `emailSubject` or `emailBody`).
@@ -461,7 +466,7 @@ Utilizes OpenRouter LLM (`llama-3.3-70b-instruct`) to draft an introductory prop
 ### 5. Match History Endpoints (`/api/v1/matches`)
 
 #### `GET /history`
-Retrieves proposal history records for matches suggested specifically by the logged-in matchmaker.
+Retrieves proposal history records for matches suggested specifically by the logged-in matchmaker, enriched with full profile details and compatibility scores.
 * **Method:** `GET`
 * **Path:** `/api/v1/matches/history`
 * **Authentication Required:** Yes
@@ -480,7 +485,30 @@ Retrieves proposal history records for matches suggested specifically by the log
         "emailBody": "We are thrilled...",
         "status": "Sent",
         "sentAt": "2026-06-06T10:58:43.123Z",
-        "matchmakerId": 1
+        "matchmakerId": 1,
+        "clientDetails": {
+          "id": "TDC-1001",
+          "firstName": "Aarav",
+          "lastName": "Sharma",
+          "fullName": "Aarav Sharma",
+          "age": 29,
+          ...clientDemographicDetails
+        },
+        "matchDetails": {
+          "id": "TDC-1025",
+          "firstName": "Sneha",
+          "lastName": "Iyer",
+          "fullName": "Sneha Iyer",
+          "age": 27,
+          ...matchDemographicDetails
+        },
+        "matchScore": {
+          "totalScore": 89.5,
+          "scoreLabel": "Excellent",
+          "hasDealbreaker": false,
+          "dealbreakers": [],
+          "breakdown": { ...fieldLevelPoints }
+        }
       }
     ]
   }
