@@ -429,3 +429,158 @@ export const revealContactInfo = (req, res) => {
 
     }
 };
+
+export const addClient = (req, res) => {
+    try{
+        
+        const {
+            contact: incomingContact = {},
+            platformMetadata: incomingPlatformMetadata = {},
+            fullName: fullNameFromBody,
+            ...clientData
+        } = req.body;
+
+        const requiredFields = [
+            "firstName",
+            "lastName",
+            "age",
+            "dateOfBirth",
+            "gender",
+            "maritalStatus",
+            "wantKids",
+            "about",
+            "religion",
+            "varna",
+            "jati",
+            "motherTongue",
+            "languageFamily",
+            "timelineToMarry",
+            "familyValues",
+            "livingArrangement",
+            "diet",
+            "drinking",
+            "smoking",
+            "heightCm",
+            "educationTier",
+            "income",
+            "workPostMarriageIntent",
+            "city",
+            "metroRegion",
+            "state",
+            "zone",
+            "country"
+        ];
+
+        const missingField = requiredFields.find(
+            field => clientData[field] === undefined || clientData[field] === null || clientData[field] === ""
+        );
+
+        if(missingField){
+            return res.status(400).json({
+                success:false,
+                message:`${missingField} is required`
+            });
+        }
+
+        if(!incomingContact.email || !incomingContact.phone){
+            return res.status(400).json({
+                success:false,
+                message:"Contact email and phone are required"
+            });
+        }
+
+        const clients = read("./data/clients.json");
+        const matchmakers = read("./data/matchmaker.json");
+
+        const nextClientNumber = clients.reduce((maxNumber, client) => {
+            const match = String(client.id).match(/(\d+)$/);
+
+            if(!match){
+                return maxNumber;
+            }
+
+            return Math.max(maxNumber, Number(match[1]));
+        }, 1000) + 1;
+
+        const generatedClientId = `TDC-${String(nextClientNumber).padStart(4, "0")}`;
+        const assignedMatchmaker = matchmakers.find(
+            matchmaker => matchmaker.id === req.userId
+        );
+
+        const timestamp = new Date().toISOString();
+        const addedDate = new Date().toLocaleDateString("en-GB", {
+            day: "2-digit",
+            month: "short",
+            year: "numeric"
+        });
+
+        const firstName = clientData.firstName;
+        const lastName = clientData.lastName;
+        const fullName = fullNameFromBody || `${firstName} ${lastName}`.trim();
+
+        const newClient = {
+            ...clientData,
+            id: generatedClientId,
+            firstName,
+            lastName,
+            fullName,
+            age: Number(clientData.age),
+            contact: {
+                email: incomingContact.email,
+                phone: incomingContact.phone
+            },
+            fluentLanguages: Array.isArray(clientData.fluentLanguages)
+                ? clientData.fluentLanguages
+                : [],
+            openToPets: Boolean(clientData.openToPets),
+            isTopInstitution: Boolean(clientData.isTopInstitution),
+            openToRelocation: Boolean(clientData.openToRelocation),
+            horoscopeMatchingRequired: Boolean(clientData.horoscopeMatchingRequired),
+            isManglik: Boolean(clientData.isManglik),
+            platformMetadata: {
+                stage: incomingPlatformMetadata.stage || "Active Search",
+                stageBg: incomingPlatformMetadata.stageBg || "#DCFCE7",
+                stageColor: incomingPlatformMetadata.stageColor || "#166534",
+                addedDate: incomingPlatformMetadata.addedDate || addedDate,
+                lastActivity: timestamp,
+                verified: incomingPlatformMetadata.verified ?? false,
+                timelineToMarry:
+                    incomingPlatformMetadata.timelineToMarry ||
+                    clientData.timelineToMarry,
+                assignedTo: {
+                    id: req.userId,
+                    name: assignedMatchmaker?.name || "Unknown"
+                }
+            }
+        };
+
+        const alreadyExists = clients.some(
+            client =>
+                client.id === newClient.id ||
+                client.contact?.email?.toLowerCase() === newClient.contact.email.toLowerCase()
+        );
+
+        if(alreadyExists){
+            return res.status(409).json({
+                success:false,
+                message:"Client already exists"
+            });
+        }
+
+        clients.push(newClient);
+
+        write("./data/clients.json", clients);
+
+        return res.status(201).json({
+            success:true,
+            message:"Client added successfully",
+            client:newClient
+        });
+    }catch(error){
+
+        return res.status(500).json({
+            success: false,
+            message: "Internal Server Error"
+        });
+    }
+};

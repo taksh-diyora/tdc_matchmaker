@@ -1,18 +1,18 @@
 const WEIGHTS = {
     religion:           { male: 8,  female: 8 },
     casteOrCommunity:   { male: 7,  female: 7 },
-    motherTongue:       { male: 4,  female: 3 },
+    motherTongue:       { male: 4,  female: 3 },  // Depends upon primary client and other candidate
     wantKids:           { male: 12, female: 12 },
     timelineToMarry:    { male: 6,  female: 6 },
-    familyValues:       { male: 6,  female: 7 },
-    livingArrangement:  { male: 4,  female: 5 },
-    diet:               { male: 7,  female: 5 },
-    drinking:           { male: 3,  female: 4 },
-    smoking:            { male: 2,  female: 3 },
-    ageGap:             { male: 9,  female: 4 },
-    height:             { male: 6,  female: 2 },
-    education:          { male: 4,  female: 6 },
-    income:             { male: 5,  female: 11 },
+    familyValues:       { male: 6,  female: 7 },  // Depends upon primary client and other candidate
+    livingArrangement:  { male: 4,  female: 5 },  // Depends upon primary client and other candidate
+    diet:               { male: 7,  female: 5 },  // Depends upon primary client and other candidate
+    drinking:           { male: 3,  female: 4 },  // Depends upon primary client and other candidate
+    smoking:            { male: 2,  female: 3 },  // Depends upon primary client and other candidate
+    ageGap:             { male: 9,  female: 4 },  // Depends upon primary client and other candidate
+    height:             { male: 6,  female: 2 },  // Depends upon primary client and other candidate
+    education:          { male: 4,  female: 6 },  // Depends upon primary client and other candidate
+    income:             { male: 5,  female: 11 }, // Depends upon primary client and other candidate
     workPostMarriage:   { male: 3,  female: 3 },
     cityRegion:         { male: 5,  female: 5 },
     relocation:         { male: 3,  female: 3 },
@@ -331,8 +331,9 @@ export const REASON_MAP = {
 };
 
 export const calculateMatchScore = (primaryProfile, candidateProfile) => {
-    // Determine which weight table to use
-    const genderContext = primaryProfile.gender?.toLowerCase() === 'female' ? 'female' : 'male';
+    // Determine gender context for both to fetch fair weights
+    const pGender = primaryProfile.gender?.toLowerCase() === 'female' ? 'female' : 'male';
+    const cGender = candidateProfile.gender?.toLowerCase() === 'female' ? 'female' : 'male';
     
     let totalScore = 0;
     let dealbreakers = [];
@@ -340,7 +341,8 @@ export const calculateMatchScore = (primaryProfile, candidateProfile) => {
 
     // Evaluate each of the 19 fields
     for (const fieldName of Object.keys(WEIGHTS)) {
-        const weight = WEIGHTS[fieldName][genderContext];
+        const wP = WEIGHTS[fieldName][pGender];
+        const wC = WEIGHTS[fieldName][cGender];
         const evaluate = evaluators[fieldName];
         
         let multiplier = 0;
@@ -354,12 +356,28 @@ export const calculateMatchScore = (primaryProfile, candidateProfile) => {
             }
         }
         
-        const points = multiplier * weight;
+        let points = 0;
+        let effectiveWeight = wP; 
+        
+        // New Logic: Check if weights are the same or different
+        if (wP === wC) {
+            // Same weight: calculated the same as the original algorithm
+            points = multiplier * wP;
+        } else {
+            // Different weights: calculate separate scores and take the average
+            const scorePrimary = multiplier * wP;
+            const scoreCandidate = multiplier * wC;
+            points = (scorePrimary + scoreCandidate) / 2;
+            effectiveWeight = (wP + wC) / 2; // Store the averaged weight for the breakdown
+        }
+        
         totalScore += points;
 
         breakdown[fieldName] = {
             multiplier: parseFloat(multiplier.toFixed(2)),
-            weight: weight,
+            weight: effectiveWeight, // Reflects the fair/averaged weight used
+            primaryWeight: wP,
+            candidateWeight: wC,
             points: parseFloat(points.toFixed(2))
         };
     }

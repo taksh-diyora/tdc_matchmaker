@@ -5384,5 +5384,66 @@
         "name": "Taksh Diyora"
       }
     }
+  },
+  {
+    "id": "TDC-1090",
+    "firstName": "Ishita",
+    "lastName": "Mehta",
+    "age": 27,
+    "dateOfBirth": "14 Aug 1998",
+    "gender": "Female",
+    "maritalStatus": "Never Married",
+    "wantKids": "Yes",
+    "about": "Works in design and enjoys traveling, books, and music.",
+    "religion": "Hindu",
+    "varna": "Brahmin",
+    "jati": "Gaur",
+    "gotra": "Vashistha",
+    "sect": "Gaur",
+    "motherTongue": "Hindi",
+    "languageFamily": "Indo-Aryan",
+    "fluentLanguages": [
+      "Hindi",
+      "English",
+      "Gujarati"
+    ],
+    "timelineToMarry": "1-2 years",
+    "familyValues": "Moderate",
+    "livingArrangement": "Flexible",
+    "diet": "Pure Veg",
+    "drinking": "Abstain",
+    "smoking": "Non-smoker",
+    "heightCm": "5'4\" / 162 cm",
+    "openToPets": true,
+    "educationTier": "Postgraduate",
+    "isTopInstitution": false,
+    "income": "₹12 LPA",
+    "workPostMarriageIntent": "Wants to work",
+    "city": "Ahmedabad",
+    "metroRegion": "Ahmedabad",
+    "state": "Gujarat",
+    "zone": "West",
+    "country": "India",
+    "openToRelocation": true,
+    "horoscopeMatchingRequired": false,
+    "isManglik": false,
+    "fullName": "Ishita Mehta",
+    "contact": {
+      "email": "ishita.mehta.new@example.com",
+      "phone": "+91 9876543299"
+    },
+    "platformMetadata": {
+      "stage": "Active Search",
+      "stageBg": "#DCFCE7",
+      "stageColor": "#166534",
+      "addedDate": "06 Jun 2026",
+      "lastActivity": "2026-06-06T04:35:49.632Z",
+      "verified": false,
+      "timelineToMarry": "1-2 years",
+      "assignedTo": {
+        "id": 1,
+        "name": "Taksh Diyora"
+      }
+    }
   }
 ]
