@@ -210,6 +210,7 @@ Retrieves clients assigned to the logged-in matchmaker, with query support for f
   * `search` (String): Case-insensitive match on client's `fullName`.
   * `stage` (String): Filter by current stage (e.g. `"Active Search"`, `"Matched"`).
   * `sortBy` (String): Options include `"lastActivity"`, `"age"`, `"name"`.
+  * `gender` (String): Options include `"All gender"`, `"Male"`, `"Female"`.
   * `page` (Number): Page number (defaults to `1`).
   * `limit` (Number): Roster objects per page (defaults to `12`).
 * **Response:**

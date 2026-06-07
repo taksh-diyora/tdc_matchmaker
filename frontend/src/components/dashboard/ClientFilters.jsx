@@ -65,7 +65,6 @@ export default function ClientFilters({ search, onSearchChange, stage, onStageCh
           <SelectItem value="all">All Genders</SelectItem>
           <SelectItem value="Male">Male</SelectItem>
           <SelectItem value="Female">Female</SelectItem>
-          <SelectItem value="Other">Other</SelectItem>
         </SelectContent>
       </Select>
 

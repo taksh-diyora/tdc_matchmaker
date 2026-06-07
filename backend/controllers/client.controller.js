@@ -3,7 +3,7 @@ import {calculateMatchScore, getTopReasons} from "../utils/matchAlgorithm.js";
 
 export const getMyClients = (req, res) => {
     try{
-        // Getting Matchmaker id from jwt
+        // Use the logged-in matchmaker id
         const matchmakerId = req.userId;
 
         const {
@@ -15,14 +15,15 @@ export const getMyClients = (req, res) => {
             limit = 12
         } = req.query;
 
-        // Getting clients from clients data
+        // Load all clients
         const clients = read("./data/clients.json");
 
-        // filtering out clients that are assigned to Matchmaker with matchmaker id = matchmakerId
+        // Keep only assigned clients
         let assignedClients = clients.filter(
             client => client.platformMetadata.assignedTo?.id === matchmakerId
         );
 
+        // Apply search filter
         if(search){
             assignedClients = assignedClients.filter(
                 client => client.fullName
@@ -31,18 +32,21 @@ export const getMyClients = (req, res) => {
             );
         }
 
+        // Apply stage filter
         if(stage){
             assignedClients = assignedClients.filter(
                 client => client.platformMetadata.stage === stage
             );
         }
 
+        // Apply gender filter
         if(gender){
             assignedClients = assignedClients.filter(
                 client => client.gender === gender
             );
         }
 
+        // Sort the result set
         if(sortBy === "lastActivity"){
             assignedClients.sort(
                 (a, b) =>
@@ -72,6 +76,7 @@ export const getMyClients = (req, res) => {
         const startIndex =
             (pageNumber - 1) * limitNumber;
 
+        // Slice the current page
         const paginatedClients =
             assignedClients.slice(
                 startIndex,
@@ -111,6 +116,7 @@ export const getClientById = (req, res) => {
     try{
         const {id} = req.params;
 
+        // Load the requested client
         const clients = read("./data/clients.json");
 
         const client = clients.find(
@@ -143,6 +149,7 @@ export const updateClientStage = (req, res) => {
         const {id} = req.params;
         const {stage, reason} = req.body;
 
+        // Stage is mandatory
         if(!stage){
             return res.status(400).json({
                 success:false,
@@ -150,6 +157,7 @@ export const updateClientStage = (req, res) => {
             });
         }
 
+        // Find the client first
         const clients = read("./data/clients.json");
 
         const clientIndex = clients.findIndex(
@@ -165,6 +173,7 @@ export const updateClientStage = (req, res) => {
 
         const oldStage = clients[clientIndex].platformMetadata.stage;
 
+        // Skip if nothing changed
         if(oldStage === stage){
             return res.status(200).json({
                 message:`Stage already is ${stage}`,
@@ -172,6 +181,7 @@ export const updateClientStage = (req, res) => {
             });
         }
 
+        // Keep stage colors in sync
         const STAGE_COLORS = {
             "Active Search": { bg: "#DCFCE7", color: "#166534" },
             "Shortlisted":   { bg: "#FEF3C7", color: "#92400E" },
@@ -184,11 +194,13 @@ export const updateClientStage = (req, res) => {
 
         clients[clientIndex].platformMetadata.stage = stage;
         clients[clientIndex].platformMetadata.lastActivity = timestamp;
+        // Update badge colors when known
         if (STAGE_COLORS[stage]) {
             clients[clientIndex].platformMetadata.stageBg = STAGE_COLORS[stage].bg;
             clients[clientIndex].platformMetadata.stageColor = STAGE_COLORS[stage].color;
         }
 
+        // Save the stage change note
         write("./data/clients.json", clients);
 
         const notes = read("./data/notes.json");
@@ -234,6 +246,7 @@ export const addNote = (req, res) => {
             isPrivate = false
         } = req.body;
 
+        // Validate note fields
         if(!type || !content){
             return res.status(400).json({
                 message:"Type and content are required",
@@ -241,6 +254,7 @@ export const addNote = (req, res) => {
             })
         }
 
+        // Confirm the client exists
         const clients = read("./data/clients.json");
 
         const clientExists = clients.some(
@@ -254,6 +268,7 @@ export const addNote = (req, res) => {
             });
         }
 
+        // Save the note
         const notes = read("./data/notes.json");
 
         const newNote = {
@@ -292,6 +307,7 @@ export const addNote = (req, res) => {
 export const getClientNotes = (req, res) => {
     try{
         const {id: clientId} = req.params;
+        // Confirm the client exists
         const clients = read("./data/clients.json");
 
         const clientExists = clients.some(
@@ -305,6 +321,7 @@ export const getClientNotes = (req, res) => {
             });
         }
 
+        // Return notes newest first
         const notes = read("./data/notes.json");
 
         const clientNotes = notes.filter(
@@ -333,9 +350,11 @@ export const getClientNotes = (req, res) => {
 export const getClientMatches = (req, res) => {
     try{
         const {id} = req.params;
+        // Load profiles and sent matches
         const clients = read("./data/clients.json");
         const sentMatches = read("./data/matches.json");
 
+        // Skip if the primary profile is missing
         const primaryClient = clients.find(
             client => client.id === id
         );
@@ -348,6 +367,7 @@ export const getClientMatches = (req, res) => {
         }
 
         // Build a set of matchIds that have already been sent for this client
+        // Remove matches already sent for this client
         const sentMatchIds = new Set();
         const sentMatchMap = {};
         sentMatches.forEach(m => {
@@ -357,6 +377,7 @@ export const getClientMatches = (req, res) => {
             }
         });
 
+        // Score the remaining candidates
         const matches = clients
             .filter(client => client.gender !== primaryClient.gender)
             .filter(client => !sentMatchIds.has(client.id))  // exclude already-sent
@@ -380,7 +401,7 @@ export const getClientMatches = (req, res) => {
                 };
             })
             .sort((a, b) => b.matchScore.totalScore - a.matchScore.totalScore)
-            .slice(0, 5);
+            .slice(0, 10);
 
         return res.status(200).json({
             success:true,
@@ -405,7 +426,7 @@ export const getClientMatches = (req, res) => {
 
 export const addClient = (req, res) => {
     try{
-        
+        // Separate contact and metadata from the base profile
         const {
             contact: incomingContact = {},
             platformMetadata: incomingPlatformMetadata = {},
@@ -413,6 +434,7 @@ export const addClient = (req, res) => {
             ...clientData
         } = req.body;
 
+        // Require the base profile fields
         const requiredFields = [
             "firstName",
             "lastName",
@@ -444,10 +466,12 @@ export const addClient = (req, res) => {
             "country"
         ];
 
+        // Find the first missing field
         const missingField = requiredFields.find(
             field => clientData[field] === undefined || clientData[field] === null || clientData[field] === ""
         );
 
+        // Contact must be complete
         if(missingField){
             return res.status(400).json({
                 success:false,
@@ -455,6 +479,7 @@ export const addClient = (req, res) => {
             });
         }
 
+        // Contact info is required
         if(!incomingContact.email || !incomingContact.phone){
             return res.status(400).json({
                 success:false,
@@ -462,9 +487,11 @@ export const addClient = (req, res) => {
             });
         }
 
+        // Load current clients and matchmakers
         const clients = read("./data/clients.json");
         const matchmakers = read("./data/matchmaker.json");
 
+        // Generate the next client id
         const nextClientNumber = clients.reduce((maxNumber, client) => {
             const match = String(client.id).match(/(\d+)$/);
 
@@ -475,11 +502,13 @@ export const addClient = (req, res) => {
             return Math.max(maxNumber, Number(match[1]));
         }, 1000) + 1;
 
+        // Resolve the assigned matchmaker
         const generatedClientId = `TDC-${String(nextClientNumber).padStart(4, "0")}`;
         const assignedMatchmaker = matchmakers.find(
             matchmaker => matchmaker.id === req.userId
         );
 
+        // Stamp server-managed metadata
         const timestamp = new Date().toISOString();
         const addedDate = new Date().toLocaleDateString("en-GB", {
             day: "2-digit",
@@ -487,10 +516,12 @@ export const addClient = (req, res) => {
             year: "numeric"
         });
 
+        // Normalize the incoming payload
         const firstName = clientData.firstName;
         const lastName = clientData.lastName;
         const fullName = fullNameFromBody || `${firstName} ${lastName}`.trim();
 
+        // Build the final client record
         const newClient = {
             ...clientData,
             id: generatedClientId,
@@ -527,12 +558,14 @@ export const addClient = (req, res) => {
             }
         };
 
+        // Block duplicate ids or emails
         const alreadyExists = clients.some(
             client =>
                 client.id === newClient.id ||
                 client.contact?.email?.toLowerCase() === newClient.contact.email.toLowerCase()
         );
 
+        // Persist the new client
         if(alreadyExists){
             return res.status(409).json({
                 success:false,
@@ -557,3 +590,4 @@ export const addClient = (req, res) => {
         });
     }
 };
+

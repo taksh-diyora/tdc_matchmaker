@@ -5,7 +5,7 @@ export const login = (req, res) => {
     try{
         const {email, password} = req.body;
 
-        // missing email or password
+        // Validate login input
         if(!email || !password){
             return res.status(400).json({
                 message:"Something is missing",
@@ -13,14 +13,15 @@ export const login = (req, res) => {
             })
         }
 
+        // Load matchmakers from disk
         const matchmakers = read("./data/matchmaker.json");
         
-        // serching for the user with entered email address
+        // Find the account by email
         let matchmaker = matchmakers.find(
             (u) => u.email.toLowerCase() === email.toLowerCase()
         );
         
-        // invalid email address
+        // Reject unknown users
         if(!matchmaker){
             return res.status(401).json({
                 message:"Invalid credentials",
@@ -28,7 +29,7 @@ export const login = (req, res) => {
             });
         }
 
-        // invalid password
+        // Reject bad password
         if(matchmaker.password !== password){
             return res.status(401).json({
                 message:"Invalid credentials",
@@ -36,14 +37,15 @@ export const login = (req, res) => {
             })
         }
 
-        // payload to be stored inside JWT
+        // Build JWT payload
         const tokenData = {
             userId: matchmaker.id
         }
 
-        // generating signed JWT token
+        // Create the auth token
         const token = jwt.sign(tokenData, process.env.SECRET_KEY, {expiresIn:'1d'});
 
+        // Return only safe profile fields
         matchmaker = {
             id: matchmaker.id,
             name: matchmaker.name,
@@ -51,7 +53,7 @@ export const login = (req, res) => {
             initials: matchmaker.initials
         }
 
-        // set token cookie with max age of 1 day and return user data
+        // Set auth cookie and respond
         return res.status(200).cookie("token", token, {maxAge:1*24*60*60*1000, httpOnly:true, sameSite:'strict', secure: process.env.NODE_ENV==="production"}).json({
             message:`Welcome back ${matchmaker.name}`,
             matchmaker,

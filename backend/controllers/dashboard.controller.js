@@ -2,15 +2,18 @@ import {read} from "../utils/fileDB.js";
 
 export const getDashboardStats = (req, res) => {
     try{
+        // Load current dashboard data
         const clients = read("./data/clients.json");
         const matches = read("./data/matches.json");
 
+        // Match the main pipeline stages
         const STAGES = {
             ACTIVE: "Active Search",
             DATING: "In Conversation",
             MATCHED: "Matched"
         }
 
+        // Count clients in each stage
         const activeClients = clients.filter(
             client => client.platformMetadata.stage === STAGES.ACTIVE
         ).length;
@@ -23,7 +26,7 @@ export const getDashboardStats = (req, res) => {
             client => client.platformMetadata.stage === STAGES.MATCHED
         ).length;
 
-        // Count matches sent this calendar month
+        // Count matches sent this month
         const now = new Date();
         const monthStart = new Date(now.getFullYear(), now.getMonth(), 1);
         const matchesSentThisMonth = matches.filter(m => {

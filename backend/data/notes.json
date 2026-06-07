@@ -75,5 +75,15 @@
     "isPrivate": false,
     "createdAt": "2026-06-07T09:27:38.847Z",
     "matchmakerId": 1
+  },
+  {
+    "id": 1780827959380,
+    "clientId": "TDC-1013",
+    "type": "Stage Update",
+    "oldStage": "Active Search",
+    "newStage": "In Conversation",
+    "content": "Auto-transitioned after match proposal sent to TDC-1083",
+    "createdAt": "2026-06-07T10:25:59.369Z",
+    "matchmakerId": 1
   }
 ]

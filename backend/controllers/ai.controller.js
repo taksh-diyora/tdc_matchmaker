@@ -10,6 +10,7 @@ export const generateIntroEmail = async (req, res) => {
             reasons = []
         } = req.body;
 
+        // Require both profiles before generating text
         if (!client || !match) {
             return res.status(400).json({
                 success: false,
@@ -17,6 +18,7 @@ export const generateIntroEmail = async (req, res) => {
             });
         }
 
+        // Build the prompt for the model
         const prompt = `
 You are a professional matrimonial matchmaker.
 
@@ -69,6 +71,7 @@ INSTRUCTIONS
 Generate the email now.
 `;
 
+    // Call the LLM provider
         const response = await axios.post(
             "https://openrouter.ai/api/v1/chat/completions",
             {
@@ -92,6 +95,7 @@ Generate the email now.
             response.data.choices?.[0]?.message?.content ||
             "Unable to generate email.";
 
+        // Return the generated subject and body
         return res.status(200).json({
             success: true,
             emailSubject: `Potential Match for ${client.fullName}`,

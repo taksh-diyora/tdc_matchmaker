@@ -48,5 +48,15 @@
     "status": "Sent",
     "sentAt": "2026-06-07T09:26:56.512Z",
     "matchmakerId": 1
+  },
+  {
+    "id": 1780827959369,
+    "clientId": "TDC-1013",
+    "matchId": "TDC-1083",
+    "emailSubject": "Potential Match for Karan Agarwal",
+    "emailBody": "Dear Karan Agarwal,\n\nI am excited to introduce you to Pallavi Bhatia, a 23-year-old from Bangalore, as a potential match. She is a graduate, values traditional family principles, and shares your Hindu faith. Notably, she does not plan to have kids, aligning with your goals. I selected Pallavi due to your compatible religious values, cultural backgrounds, and comfortable age gap. With a compatibility score of 86/100, I believe you two could make a great pair. I think you'll find her to be a great match, and I look forward to discussing this further with you.",
+    "status": "Sent",
+    "sentAt": "2026-06-07T10:25:59.369Z",
+    "matchmakerId": 1
   }
 ]

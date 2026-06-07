@@ -33,6 +33,7 @@ export default function ViewProfileModal({ match, onClose }) {
             <div>
               <h2 className="font-serif text-xl font-semibold" style={{ color: '#2C2420' }}>{match.fullName}</h2>
               <p className="font-sans text-sm" style={{ color: '#9A9088' }}>{match.age} yrs · {match.city}, {match.state}</p>
+              <p className="font-sans text-sm" style={{ color: '#B6AFA9' }}>{match.id}</p>
             </div>
           </div>
           <div className="flex items-center gap-3">

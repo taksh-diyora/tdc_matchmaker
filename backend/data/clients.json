@@ -775,11 +775,11 @@
     "horoscopeMatchingRequired": false,
     "isManglik": false,
     "platformMetadata": {
-      "stage": "Active Search",
-      "stageBg": "#DCFCE7",
-      "stageColor": "#166534",
+      "stage": "In Conversation",
+      "stageBg": "#DBEAFE",
+      "stageColor": "#1E40AF",
       "addedDate": "20 Mar 2026",
-      "lastActivity": "2026-06-04T13:45:00Z",
+      "lastActivity": "2026-06-07T10:25:59.369Z",
       "verified": true,
       "timelineToMarry": "6-12 months",
       "assignedTo": {

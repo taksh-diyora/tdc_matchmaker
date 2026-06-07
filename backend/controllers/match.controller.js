@@ -17,8 +17,10 @@ export const sendMatch = (req, res) => {
             });
         }
 
+        // Load client records
         const clients = read("./data/clients.json");
 
+        // Verify both profiles exist
         const clientExists = clients.some(
             client => client.id === clientId
         );
@@ -44,6 +46,7 @@ export const sendMatch = (req, res) => {
         const matches = read("./data/matches.json");
         const timestamp = new Date().toISOString();
 
+        // Store the sent match record
         const matchRecord = {
             id: Date.now(),
 
@@ -62,7 +65,7 @@ export const sendMatch = (req, res) => {
         matches.push(matchRecord);
         write("./data/matches.json", matches);
 
-        // Auto-transition stage to "In Conversation" if currently in Active Search or Shortlisted
+        // Stage update rules after sending a match
         const STAGE_COLORS = {
             "Active Search": { bg: "#DCFCE7", color: "#166534" },
             "Shortlisted":   { bg: "#FEF3C7", color: "#92400E" },
@@ -83,7 +86,7 @@ export const sendMatch = (req, res) => {
             clients[clientIdx].platformMetadata.lastActivity = timestamp;
             write("./data/clients.json", clients);
 
-            // Log the stage change as a note
+            // Log the stage change
             const notes = read("./data/notes.json");
             notes.push({
                 id: Date.now() + 1,
@@ -121,10 +124,11 @@ export const getMatchHistory = (req, res) => {
     try{
         const matchmakerId = req.userId;
 
+        // Load sent matches and profiles
         const matches = read("./data/matches.json");
         const clients = read("./data/clients.json");
 
-        // Build a lookup map for client details (full profile minus contact info)
+        // Build a safe profile lookup
         const clientMap = {};
         clients.forEach(c => {
             const { contact, ...profile } = c;
