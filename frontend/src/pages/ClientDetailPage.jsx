@@ -256,7 +256,7 @@ export default function ClientDetailPage() {
 
                     <div className="flex items-center justify-between px-6 pt-5 pb-3">
                       <p className="font-serif text-base font-semibold" style={{ color: '#2C2420' }}>
-                        {matches.length} Compatible Profiles
+                        Top {matches.length} Compatible Profiles
                       </p>
                       <button
                         onClick={() => refetch()}
