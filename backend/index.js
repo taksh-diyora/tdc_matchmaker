@@ -11,12 +11,18 @@ dotenv.config();
 
 const app = express();
 
+const allowedOrigins = [
+    process.env.FRONTEND_URL,
+    process.env.CLIENT_URL,
+    "http://localhost:5173"
+].filter(Boolean);
+
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 app.use(cookieParser());
 
 const corsOption = {
-    origin: 'http://localhost:5173',
+    origin: allowedOrigins,
     credentials:true
 }
 
