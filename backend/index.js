@@ -30,6 +30,13 @@ app.use(cors(corsOption));
 
 const PORT = process.env.PORT || 3000
 
+app.get("/", (req, res) => {
+    return res.status(200).json({
+        success: true,
+        message: "MatchMaker backend is running"
+    });
+});
+
 //Routes
 app.use("/api/v1/auth", authRouter);
 app.use("/api/v1/clients", clientRouter);
