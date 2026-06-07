@@ -25,7 +25,7 @@ export default function MatchHistoryGlobalPage() {
     >
       <PageHeader title="Match History" />
 
-      <div className="px-8 py-6">
+      <div className="px-4 lg:px-8 py-4 lg:py-6">
         {isLoading ? (
           <div className="space-y-4">
             {[...Array(4)].map((_, i) => <MatchCardSkeleton key={i} />)}

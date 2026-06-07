@@ -11,14 +11,14 @@ export default function ClientFilters({ search, onSearchChange, stage, onStageCh
   return (
     <div className="flex flex-wrap items-center gap-3 mb-6">
       {/* Search */}
-      <div className="relative">
+      <div className="relative w-full sm:w-auto flex-1 sm:flex-none">
         <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2" style={{ color: '#9A9088' }} />
         <input
           type="text"
           value={search}
           onChange={(e) => onSearchChange(e.target.value)}
           placeholder="Search clients..."
-          className="pl-9 pr-4 py-2 rounded-xl text-sm font-sans outline-none w-60 transition-all"
+          className="pl-9 pr-4 py-2 rounded-xl text-sm font-sans outline-none w-full sm:w-60 transition-all"
           style={{
             border: '1px solid #E8E1D6',
             background: '#FFFFFF',

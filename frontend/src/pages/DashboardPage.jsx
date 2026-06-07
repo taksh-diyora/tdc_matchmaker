@@ -47,7 +47,7 @@ export default function DashboardPage() {
       <PageHeader title="My Clients">
         <button
           onClick={() => setShowAddModal(true)}
-          className="flex items-center gap-2 text-white rounded-xl px-4 py-2.5 text-sm font-sans font-semibold"
+          className="flex items-center gap-2 text-white rounded-xl px-3 lg:px-4 py-2 lg:py-2.5 text-sm font-sans font-semibold"
           style={{
             background: '#1B3A2C',
             boxShadow: '0 1px 3px rgba(44,36,32,0.07)',
@@ -56,11 +56,11 @@ export default function DashboardPage() {
           onMouseLeave={(e) => e.currentTarget.style.background = '#1B3A2C'}
         >
           <UserPlus size={16} />
-          Add Client
+          <span className="hidden sm:inline">Add Client</span>
         </button>
       </PageHeader>
 
-      <div className="px-8 py-6">
+      <div className="px-4 lg:px-8 py-4 lg:py-6">
         <StatsGrid />
 
         <ClientFilters

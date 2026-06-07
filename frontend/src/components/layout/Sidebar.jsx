@@ -7,7 +7,7 @@ const navItems = [
   { label: 'Match History', icon: Send, path: '/history' },
 ];
 
-export default function Sidebar() {
+export default function Sidebar({ sidebarOpen, setSidebarOpen }) {
   const location = useLocation();
   const navigate = useNavigate();
   const { matchmaker, logout } = useAuthStore();
@@ -20,7 +20,10 @@ export default function Sidebar() {
   const initials = matchmaker?.initials || 'MM';
 
   return (
-    <div className="flex flex-col w-64 h-screen fixed left-0 top-0 z-40 select-none" style={{ background: '#1B3A2C' }}>
+    <div 
+      className={`flex flex-col w-64 h-screen fixed left-0 top-0 z-40 select-none transition-transform duration-300 ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'} lg:translate-x-0`} 
+      style={{ background: '#1B3A2C' }}
+    >
       {/* Logo area */}
       <div className="px-5 py-6">
         <div className="flex items-center gap-3">
@@ -46,7 +49,10 @@ export default function Sidebar() {
           return (
             <button
               key={item.path}
-              onClick={() => navigate(item.path)}
+              onClick={() => {
+                navigate(item.path);
+                setSidebarOpen?.(false);
+              }}
               className={`flex items-center gap-3 w-full px-3 py-2.5 rounded-xl text-sm font-sans font-medium cursor-pointer my-0.5 transition-all duration-150
                 ${isActive
                   ? 'border-l-2 pl-[10px]'

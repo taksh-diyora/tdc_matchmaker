@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronLeft, Sparkles, History, MessageSquare, RefreshCw, Send, ChevronDown } from 'lucide-react';
+import { ChevronLeft, Sparkles, History, MessageSquare, RefreshCw, Send, ChevronDown, Menu } from 'lucide-react';
 import { toast } from 'sonner';
 import { getClientById, getClientMatches, getMatchHistory, updateClientStage } from '../services/api.js';
 import ClientProfilePanel from '../components/clients/ClientProfilePanel.jsx';
@@ -14,6 +14,7 @@ import SendMatchModal from '../components/matches/SendMatchModal.jsx';
 import NotesActivity from '../components/notes/NotesActivity.jsx';
 import MatchHistoryItem from '../components/history/MatchHistoryItem.jsx';
 import EmptyState from '../components/ui/EmptyState.jsx';
+import { useLayout } from '../components/layout/AppLayout.jsx';
 
 const tabs = [
   { label: 'Suggested Matches', icon: Sparkles },
@@ -44,6 +45,9 @@ export default function ClientDetailPage() {
   const [viewProfile, setViewProfile] = useState(null);
   const [sendMatch, setSendMatch] = useState(null);
   const [showStageDropdown, setShowStageDropdown] = useState(false);
+
+  const layout = useLayout();
+  const setSidebarOpen = layout ? layout.setSidebarOpen : () => {};
 
   // Fetch client detail
   const { data: client, isLoading: clientLoading } = useQuery({
@@ -100,26 +104,29 @@ export default function ClientDetailPage() {
 
   return (
     <motion.div
-      className="flex flex-col h-full"
+      className="flex flex-col h-full overflow-hidden w-full max-w-[100vw]"
       initial={{ opacity: 0, y: 14 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.3, ease: 'easeOut' }}
     >
       {/* Breadcrumb header */}
-      <div className="flex items-center justify-between px-8 py-4" style={{ background: '#FAF8F4', borderBottom: '1px solid #E8E1D6' }}>
-        <div className="flex items-center gap-2">
+      <div className="shrink-0 flex items-center justify-between px-4 lg:px-8 py-4" style={{ background: '#FAF8F4', borderBottom: '1px solid #E8E1D6' }}>
+        <div className="flex items-center gap-2 overflow-hidden">
+          <button className="lg:hidden p-1 rounded-md shrink-0 mr-1" onClick={() => setSidebarOpen(true)}>
+            <Menu size={20} style={{ color: '#2C2420' }} />
+          </button>
           <button
             onClick={() => navigate('/dashboard')}
-            className="flex items-center gap-1 font-sans text-sm cursor-pointer"
+            className="flex items-center gap-1 font-sans text-sm cursor-pointer shrink-0"
             style={{ color: '#9A9088' }}
             onMouseEnter={(e) => e.currentTarget.style.color = '#2C2420'}
             onMouseLeave={(e) => e.currentTarget.style.color = '#9A9088'}
           >
             <ChevronLeft size={16} />
-            My Clients
+            <span className="hidden sm:inline">My Clients</span>
           </button>
-          <span className="font-sans text-sm" style={{ color: '#9A9088' }}>/</span>
-          <span className="font-sans text-sm" style={{ color: '#5C5248' }}>
+          <span className="font-sans text-sm shrink-0" style={{ color: '#9A9088' }}>/</span>
+          <span className="font-sans text-sm truncate" style={{ color: '#5C5248' }}>
             {clientLoading ? '...' : client?.fullName}
           </span>
         </div>
@@ -148,7 +155,7 @@ export default function ClientDetailPage() {
                 <>
                   <div className="fixed inset-0 z-40" onClick={() => setShowStageDropdown(false)} />
                   <motion.div
-                    className="absolute right-0 top-full mt-2 z-50 bg-white rounded-xl py-1 min-w-[180px]"
+                    className="absolute right-0 top-full mt-2 z-50 bg-white rounded-xl py-1 w-64 max-w-[90vw] sm:min-w-[180px]"
                     style={{ border: '1px solid #E8E1D6', boxShadow: '0 8px 28px rgba(44,36,32,0.12)' }}
                     initial={{ opacity: 0, y: -8 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -186,23 +193,23 @@ export default function ClientDetailPage() {
       </div>
 
       {/* Two-column layout */}
-      <div className="flex gap-6 p-6 min-h-0 flex-1 overflow-hidden">
+      <div className="flex flex-col lg:flex-row gap-4 lg:gap-6 p-4 lg:p-6 lg:min-h-0 flex-1 overflow-auto lg:overflow-hidden relative w-full max-w-[100vw]">
         {/* Left column - profile */}
-        <div className="w-72 xl:w-80 flex-shrink-0 overflow-y-auto max-h-full">
+        <div className="w-full lg:w-72 xl:w-80 shrink-0 lg:overflow-y-auto lg:max-h-full pb-4 lg:pb-0">
           {clientLoading ? <ProfilePanelSkeleton /> : client && <ClientProfilePanel client={client} />}
         </div>
 
         {/* Right column - tabs */}
-        <div className="flex-1 min-w-0 bg-white rounded-3xl flex flex-col overflow-hidden h-full"
+        <div className="flex-1 min-w-0 bg-white rounded-3xl flex flex-col overflow-hidden lg:h-full shrink-0 min-h-[600px] lg:min-h-0"
           style={{ border: '1px solid #E8E1D6', boxShadow: '0 1px 3px rgba(44,36,32,0.07)' }}>
 
           {/* Tab bar */}
-          <div className="flex items-center gap-0 px-6 pt-4" style={{ borderBottom: '1px solid #E8E1D6' }}>
+          <div className="flex items-center gap-0 px-4 lg:px-6 pt-4 overflow-x-auto no-scrollbar" style={{ borderBottom: '1px solid #E8E1D6' }}>
             {tabs.map((tab, i) => (
               <button
                 key={tab.label}
                 onClick={() => handleTabChange(i)}
-                className="flex items-center gap-2 px-4 py-2.5 font-sans text-sm font-medium cursor-pointer transition-all relative -mb-px"
+                className="flex items-center gap-2 px-3 lg:px-4 py-2.5 font-sans text-sm font-medium cursor-pointer transition-all relative -mb-px shrink-0 whitespace-nowrap"
                 style={{
                   color: activeTab === i ? '#1B3A2C' : '#9A9088',
                   fontWeight: activeTab === i ? 600 : 500,
