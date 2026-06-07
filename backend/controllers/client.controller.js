@@ -9,6 +9,7 @@ export const getMyClients = (req, res) => {
         const {
             search,
             stage,
+            gender,
             sortBy,
             page = 1,
             limit = 12
@@ -33,6 +34,12 @@ export const getMyClients = (req, res) => {
         if(stage){
             assignedClients = assignedClients.filter(
                 client => client.platformMetadata.stage === stage
+            );
+        }
+
+        if(gender){
+            assignedClients = assignedClients.filter(
+                client => client.gender === gender
             );
         }
 

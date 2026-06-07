@@ -56,5 +56,24 @@
     "content": "Auto-transitioned after match proposal sent to TDC-1032",
     "createdAt": "2026-06-06T12:19:29.805Z",
     "matchmakerId": 1
+  },
+  {
+    "id": 1780824416540,
+    "clientId": "TDC-1091",
+    "type": "Stage Update",
+    "oldStage": "Active Search",
+    "newStage": "In Conversation",
+    "content": "Auto-transitioned after match proposal sent to TDC-1051",
+    "createdAt": "2026-06-07T09:26:56.512Z",
+    "matchmakerId": 1
+  },
+  {
+    "id": 1780824458847,
+    "clientId": "TDC-1091",
+    "type": "Call",
+    "content": "Will be busy till 10th June.",
+    "isPrivate": false,
+    "createdAt": "2026-06-07T09:27:38.847Z",
+    "matchmakerId": 1
   }
 ]

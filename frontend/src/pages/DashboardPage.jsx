@@ -14,6 +14,7 @@ export default function DashboardPage() {
   const [showAddModal, setShowAddModal] = useState(false);
   const [search, setSearch] = useState('');
   const [stage, setStage] = useState('all');
+  const [gender, setGender] = useState('all');
   const [sortBy, setSortBy] = useState('lastActivity');
   const [page, setPage] = useState(1);
   const limit = 12;
@@ -23,6 +24,7 @@ export default function DashboardPage() {
   const queryParams = {
     search: debouncedSearch || undefined,
     stage: stage === 'all' ? undefined : stage,
+    gender: gender === 'all' ? undefined : gender,
     sortBy,
     page,
     limit,
@@ -66,6 +68,8 @@ export default function DashboardPage() {
           onSearchChange={(v) => { setSearch(v); setPage(1); }}
           stage={stage}
           onStageChange={(v) => { setStage(v); setPage(1); }}
+          gender={gender}
+          onGenderChange={(v) => { setGender(v); setPage(1); }}
           sortBy={sortBy}
           onSortChange={setSortBy}
         />

@@ -3081,11 +3081,11 @@
     "horoscopeMatchingRequired": true,
     "isManglik": false,
     "platformMetadata": {
-      "stage": "Active Search",
-      "stageBg": "#DCFCE7",
-      "stageColor": "#166534",
+      "stage": "In Conversation",
+      "stageBg": "#DBEAFE",
+      "stageColor": "#1E40AF",
       "addedDate": "05 Jun 2026",
-      "lastActivity": "2026-06-06T05:43:16.642Z",
+      "lastActivity": "2026-06-07T09:26:56.512Z",
       "verified": true,
       "timelineToMarry": "2+ years",
       "assignedTo": {

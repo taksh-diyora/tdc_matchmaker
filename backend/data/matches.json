@@ -38,5 +38,15 @@
     "status": "Sent",
     "sentAt": "2026-06-06T12:19:29.805Z",
     "matchmakerId": 1
+  },
+  {
+    "id": 1780824416512,
+    "clientId": "TDC-1091",
+    "matchId": "TDC-1051",
+    "emailSubject": "Potential Match for Kabir Malhotra",
+    "emailBody": "Dear Kabir Malhotra,\n\nI am excited to introduce Aditi Sharma as a potential match for you. Aditi, a 25-year-old graduate from Delhi, shares similar Hindu values and has a progressive outlook. With an income of ₹7 LPA, she is financially compatible and open to the idea of having kids in the future. I selected Aditi due to your shared religious values, financial compatibility, and aligned family planning goals, resulting in a compatibility score of 75/100. Her cultural and age compatibility also make her a great fit. I believe Aditi could be a wonderful partner for you.",
+    "status": "Sent",
+    "sentAt": "2026-06-07T09:26:56.512Z",
+    "matchmakerId": 1
   }
 ]

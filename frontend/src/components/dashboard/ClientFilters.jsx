@@ -7,7 +7,7 @@ import {
   SelectValue,
 } from '@/components/ui/select';
 
-export default function ClientFilters({ search, onSearchChange, stage, onStageChange, sortBy, onSortChange }) {
+export default function ClientFilters({ search, onSearchChange, stage, onStageChange, gender, onGenderChange, sortBy, onSortChange }) {
   return (
     <div className="flex flex-wrap items-center gap-3 mb-6">
       {/* Search */}
@@ -50,6 +50,22 @@ export default function ClientFilters({ search, onSearchChange, stage, onStageCh
           <SelectItem value="In Conversation">In Conversation</SelectItem>
           <SelectItem value="Matched">Matched</SelectItem>
           <SelectItem value="On Hold">On Hold</SelectItem>
+        </SelectContent>
+      </Select>
+
+      {/* Gender Filter */}
+      <Select value={gender} onValueChange={onGenderChange}>
+        <SelectTrigger
+          className="w-36 rounded-xl text-sm font-sans h-10"
+          style={{ border: '1px solid #E8E1D6', background: '#FFFFFF', color: '#2C2420' }}
+        >
+          <SelectValue placeholder="All Genders" />
+        </SelectTrigger>
+        <SelectContent>
+          <SelectItem value="all">All Genders</SelectItem>
+          <SelectItem value="Male">Male</SelectItem>
+          <SelectItem value="Female">Female</SelectItem>
+          <SelectItem value="Other">Other</SelectItem>
         </SelectContent>
       </Select>
 

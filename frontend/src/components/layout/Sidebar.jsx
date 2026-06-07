@@ -24,8 +24,8 @@ export default function Sidebar() {
       {/* Logo area */}
       <div className="px-5 py-6">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-full flex items-center justify-center" style={{ background: '#C8973F' }}>
-            <span className="font-serif text-white text-sm font-bold tracking-wide">TDC</span>
+          <div className="w-10 h-10 rounded-full flex items-center justify-center" style={{ background: '#AC7121' }}>
+            <span className="font-serif text-white text-sm font-bold tracking-wide">tdc</span>
           </div>
           <div>
             <p className="font-serif text-white text-[15px] font-semibold">The Date Crew</p>
