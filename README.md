@@ -2,6 +2,17 @@
 
 MatchMaker is a full-stack matchmaking dashboard with a Node.js/Express backend and a Vite/React frontend.
 
+# Deployment
+
+- Frontend Deployment Link : https://tdc-matchmaker-gamma.vercel.app/
+- Backend Deployment Link : https://tdc-matchmaker-kyfb.onrender.com/
+
+- Testing Credentials: 
+```bash
+Email : admin1@test.com
+Password : testpassword1
+```
+
 ## Project Structure
 
 ```text
