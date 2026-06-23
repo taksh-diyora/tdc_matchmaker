@@ -9,8 +9,8 @@ export default function LoginPage() {
   const navigate = useNavigate();
   const login = useAuthStore((s) => s.login);
 
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState('admin1@test.com');
+  const [password, setPassword] = useState('testpassword1');
   const [showPassword, setShowPassword] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState('');
@@ -201,6 +201,17 @@ export default function LoginPage() {
                 'Sign In'
               )}
             </motion.button>
+
+            {/* Demo Credentials */}
+            <div className="mt-6 p-4 rounded-xl border border-dashed text-xs font-sans" style={{ borderColor: '#E8E1D6', background: '#FAF8F4', color: '#6B6055' }}>
+              <div className="font-semibold mb-1" style={{ color: '#2C2420' }}>Demo Credentials:</div>
+              <div className="flex justify-between items-center mb-1">
+                <span>Email: <span className="font-mono select-all font-medium">admin1@test.com</span></span>
+              </div>
+              <div className="flex justify-between items-center">
+                <span>Password: <span className="font-mono select-all font-medium">testpassword1</span></span>
+              </div>
+            </div>
           </form>
         </motion.div>
       </div>
